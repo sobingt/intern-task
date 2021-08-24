@@ -10,6 +10,16 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@font-face {
+  font-family: 'DINPro';
+  src: url('/assets/fonts/DINPro-Light.eot');
+  src: url('/assets/fonts/DINPro-Light.eot#iefix') format('embedded-opentype'),
+    url('/assets/fonts/DINPro-Light.woff2') format('woff2'),
+    url('/assets/fonts/DINPro-Light.woff') format('woff'),
+    url('/assets/fonts/DINPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -12187,6 +12197,15 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 /* PARTNERS */
 .partners {
-  position: relative;
-  top: -5rem;
+  background-color: #fff;
+  margin-top: -18rem;
+  width: 1200px;
+}
+.partners p {
+  font-family: DINPro;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14px;
+  line-height: 27px;
+  padding-bottom: 14px;
 }
