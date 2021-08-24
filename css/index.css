@@ -1,3 +1,8 @@
+nav#mainNav {
+    padding: 0;
+    height: 70px;
+}
+
 .font-xs {
     font-size: 0.85rem;
     padding-top: 2rem;
@@ -19,4 +24,20 @@
 }
 .navbar-gray {
     background: rgba(0, 0, 0, 0.7);
+}
+.navbar-brand a {
+    height: 100%;
+    padding: 0;
+}
+a.nav-link:hover {
+    cursor: pointer;
+    color: #af2331 !important;
+}
+.navbar-brand img {
+    height: 100%;
+    width: 231px;
+}
+
+#mainNav .navbar-brand img {
+    height: 100% !important;
 }

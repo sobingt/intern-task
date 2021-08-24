@@ -12,8 +12,9 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="./assets/img/navbar-logo.svg" alt="..." /></a>
+            <div class="container" style="height: 100%;">
+                <a class="navbar-brand" href="#page-top" style="height: 100%; padding: 0;"><img
+                        src="./assets/img/logo.jpeg" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -22,25 +23,33 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li id="company-dropdown-button" class="nav-item dropdown"><a
-                                class="nav-link font-sm">Company</a>
+                        <li id="company-dropdown-button" class="nav-item dropdown"><a class="nav-link font-sm"
+                                style="font-size: 12px;">Company</a>
                             <ul id="company-sub-dropdown" class="dropdown-menu text-capitalize p-0">
-                                <li class="dropdown-item p-2 px-4 font-xs">Ideology</li>
-                                <li class="dropdown-item p-2 px-4 font-xs">About</li>
-                                <li class="dropdown-item p-2 px-4 font-xs">Leadership</li>
+                                <li class="dropdown-item p-2 px-4 font-xs" style="font-weight: 600;">Ideology</li>
+                                <li class="dropdown-item p-2 px-4 font-xs" style="font-weight: 600;">About</li>
+                                <li class="dropdown-item p-2 px-4 font-xs" style="font-weight: 600;">Leadership</li>
                             </ul>
                         </li>
-                        <li id="sector-dropdown-button" class="nav-item dropdown"><a class="nav-link font-sm">sector</a>
+                        <li id="sector-dropdown-button" class="nav-item dropdown"><a class="nav-link font-sm"
+                                style="font-size: 12px;">sector</a>
                             <ul id="sector-sub-dropdown" class="dropdown-menu text-capitalize p-0">
-                                <li class="dropdown-item p-2 px-4 font-xs">Investment Management</li>
-                                <li class="dropdown-item p-2 px-4 font-xs">Asset Management</li>
-                                <li class="dropdown-item p-2 px-4 font-xs">Development Management</li>
-                                <li class="dropdown-item p-2 px-4 font-xs">Foreign Direct Investments</li>
+                                <li class="dropdown-item p-2 px-4 font-xs" style="font-weight: 600;">Investment
+                                    Management</li>
+                                <li class="dropdown-item p-2 px-4 font-xs" style="font-weight: 600;">Asset Management
+                                </li>
+                                <li class="dropdown-item p-2 px-4 font-xs" style="font-weight: 600;">Development
+                                    Management</li>
+                                <li class="dropdown-item p-2 px-4 font-xs" style="font-weight: 600;">Foreign Direct
+                                    Investments</li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link font-sm">Relationships</a></li>
-                        <li class="nav-item"><a class="nav-link font-sm">Investor Relations</a></li>
-                        <li class="nav-item"><a class="nav-link font-sm">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link font-sm" style="font-size: 12px;">Relationships</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link font-sm" style="font-size: 12px;">Investor
+                                Relations</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link font-sm" style="font-size: 12px;">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -706,10 +715,11 @@
             })
 
             function changeBgcolor() {
-                if (window.scrollY > 80) {
-                    $('#mainNav').addClass('navbar-gray')
+                console.log(window.scrollY)
+                if (window.scrollY > 100) {
+                    $('#mainNav').addClass('bg-black')
                 } else {
-                    $('#navbar').removeClass('navbar-gray')
+                    $('#navbar').removeClass('bg-black')
                 }
             }
 
