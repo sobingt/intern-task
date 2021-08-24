@@ -1,0 +1,22 @@
+.font-xs {
+    font-size: 0.85rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.font-sm {
+    font-size: 0.9rem;
+}
+#company-sub-dropdown, #sector-sub-dropdown {
+    position: absolute;
+    top: 100%;
+    left: -10%;
+    min-width: 130px;
+    width: fit-content;
+}
+#company-sub-dropdown > .dropdown-item:hover, #sector-sub-dropdown > .dropdown-item:hover {
+    background: #dc3545;
+    color: white;
+}
+.navbar-gray {
+    background: rgba(0, 0, 0, 0.7);
+}
