@@ -163,6 +163,51 @@ p {
   margin-bottom: 1rem;
 }
 
+/* css for trusted-relationship */
+.trusted-relationship-container{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.trusted-relationship{
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding-bottom: 50px;
+    padding-left: 37px;
+    padding-right: 20px;
+   
+}
+
+.trusted-relationship h3{
+  font-family: 'Eurostile Extended';
+  font-size: 22px;
+    text-transform: uppercase;
+    padding: 56px 0px 26px 0px;
+    color: #af2331;
+}
+
+.trusted-relationship p{
+  font-size: 16px;
+  font-family: DINPro;
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 14px;
+}
+
+.trusted-relationship-img{
+  display: flex;
+
+
+}
+.trusted-relationship-img img{
+  padding: 0 15px;
+  width: 228px;
+  height: 198px;
+}
+
 /* css for footer */
 
 .footer-wraper{
