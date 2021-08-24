@@ -22,6 +22,53 @@
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'DINPro';
+	src: url('/assets/fonts/DINPro-Light.eot');
+	src: url('/assets/fonts/DINPro-Light.eot#iefix') format('embedded-opentype'),
+		url('/assets/fonts/DINPro-Light.woff2') format('woff2'),
+		url('/assets/fonts/DINPro-Light.woff') format('woff'),
+		url('/assets/fonts/DINPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	src: url('/assets/fonts/DINPro-Medium.eot');
+	src: url('/assets/fonts/INPro-Medium.eot#iefix') format('embedded-opentype'),
+		url('/assets/fonts/DINPro-Medium.woff2') format('woff2'),
+		url('/assets/fonts/DINPro-Medium.woff') format('woff'),
+		url('/assets/fonts/DINPro-Medium.ttf') format('truetype'),
+		url('/assets/fonts/DINPro-Medium.svg#DINPro-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	src: url('/assets/fonts/DINPro-Black.eot');
+	src: url('/assets/fonts/DINPro-Black.eot#iefix') format('embedded-opentype'),
+		url('/assets/fonts/DINPro-Black.woff2') format('woff2'),
+		url('/assets/fonts/DINPro-Black.woff') format('woff'),
+		url('/assets/fonts/DINPro-Black.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Eurostile Extended';
+	src: url('/assets/fonts/EurostileLTStd-BoldEx2.eot');
+	src: url('/assets/fonts/EurostileLTStd-BoldEx2.eot#iefix') format('embedded-opentype'),
+		url('/assets/fonts/EurostileLTStd-BoldEx2.woff2') format('woff2'),
+		url('/assets/fonts/EurostileLTStd-BoldEx2.woff') format('woff'),
+		url('/assets/fonts/EurostileLTStd-BoldEx2.ttf') format('truetype'),
+		url('/assets/fonts/EurostileLTStd-BoldEx2.svg#EurostileLTStd-BoldEx2') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -201,138 +248,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/* css for trusted-relationship */
-.trusted-relationship-container {
-  width: 100%;
-  background-color: #f2f2f2;
-}
-.trusted-relationship {
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
-  background: white;
-  padding-bottom: 50px;
-  padding-left: 37px;
-  padding-right: 20px;
-}
-
-.trusted-relationship h3 {
-  font-family: "Eurostile Extended";
-  font-size: 22px;
-  text-transform: uppercase;
-  padding: 56px 0px 26px 0px;
-  color: #af2331;
-}
-
-.trusted-relationship p {
-  font-size: 16px;
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 18px;
-  line-height: 27px;
-  padding-bottom: 14px;
-}
-
-.trusted-relationship-img {
-  display: flex;
-}
-.trusted-relationship-img img {
-  padding: 0 15px;
-  width: 228px;
-  height: 198px;
-}
-
-/* css for footer */
-
-.footer-wraper {
-  background-color: #d9d9d9;
-  padding: 50px 70px;
-  display: flex;
-  margin: auto;
-}
-
-.address-head {
-  display: flex;
-  align-items: center;
-  padding: 15px 0 5px 0;
-}
-
-.address-description {
-  vertical-align: baseline;
-  font-family: DINPro;
-  line-height: 20px;
-  font-size: 16px;
-}
-
-.send-mail {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 18px 0 0 0;
-}
-
-.mail-link a {
-  vertical-align: baseline;
-  font-family: DINPro;
-  text-decoration: underline;
-  color: #000000;
-}
-
-.col2 {
-  border-left: 1px solid #000000;
-  border-right: 1px solid #000000;
-  padding-left: 3%;
-  width: 33.33333%;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.col1 {
-  width: 33.33333%;
-}
-.col3 {
-  width: 33.33333%;
-  padding-left: 3%;
-}
-
-.footer-btn {
-  font-family: DINPro;
-  font-weight: 500;
-  color: #000000;
-  font-size: 18px;
-  text-transform: uppercase;
-  background-color: #c3c3c3;
-  display: table;
-  padding: 8px 12px;
-  margin-bottom: 12px;
-  -webkit-transition: 0.25s ease-in-out;
-  cursor: pointer;
-}
-.footer-btn span {
-  font-weight: bold;
-}
-.footer-btn:hover {
-  color: #ffffff;
-  background-color: #af2331;
-  -webkit-transition: 0.25s ease-in-out;
-}
-
-.col-2-btn {
-  width: 100px;
-}
-
-.col2 img {
-  width: 190px;
-  height: 57px;
-  cursor: pointer;
-}
-.col2 img:hover {
-  margin-left: 15px;
-  -webkit-transition: 0.25s ease-in-out;
-}
-
 html {
   scroll-padding-top: 4.5rem;
 }
@@ -493,3 +408,142 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
+
+
+/*** Start of Trusted Relationship Section ***/
+.trusted-relationship-container {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.trusted-relationship {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  padding-bottom: 50px;
+  padding-left: 37px;
+  padding-right: 20px;
+}
+
+.trusted-relationship h3 {
+  font-family: "Eurostile Extended";
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 56px 0px 26px 0px;
+  color: #af2331;
+}
+
+.trusted-relationship p {
+  font-size: 16px;
+  font-family: DINPro;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 14px;
+}
+
+.trusted-relationship-img {
+  display: flex;
+}
+.trusted-relationship-img img {
+  padding: 0 15px;
+  width: 228px;
+  height: 198px;
+}
+
+/*** End of Trusted Relationship Section ***/
+
+/*** Start of Footer ***/
+
+.footer-wraper {
+  background-color: #d9d9d9;
+  padding: 50px 70px;
+  display: flex;
+  margin: auto;
+}
+
+.address-head {
+  display: flex;
+  align-items: center;
+  padding: 15px 0 5px 0;
+}
+
+.address-description {
+  vertical-align: baseline;
+  font-family: DINPro;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.send-mail {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 18px 0 0 0;
+}
+
+.mail-link a {
+  vertical-align: baseline;
+  font-family: DINPro;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.col2 {
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  padding-left: 3%;
+  width: 33.33333%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.col1 {
+  width: 33.33333%;
+}
+.col3 {
+  width: 33.33333%;
+  padding-left: 3%;
+}
+
+.footer-btn {
+  font-family: DINPro;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #c3c3c3;
+  display: table;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  -webkit-transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+.footer-btn span {
+  font-weight: bold;
+}
+.footer-btn:hover {
+  color: #ffffff;
+  background-color: #af2331;
+  -webkit-transition: 0.25s ease-in-out;
+}
+
+.col-2-btn {
+  width: 100px;
+}
+
+.col2 img {
+  width: 190px;
+  height: 57px;
+  cursor: pointer;
+}
+.col2 img:hover {
+  margin-left: 15px;
+  -webkit-transition: 0.25s ease-in-out;
+}
+
+
+/*** End of Footer ***/
