@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+.container  {
+    height: 100%;
+}
+.card-container {
+    width: 100%;
+}
+.card-description {
+    min-height: 354px;
+}
