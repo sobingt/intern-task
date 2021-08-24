@@ -85,10 +85,14 @@
     </header>
     <!-- Services-->
     <section class="container-fluid home-content">
-      <div class="container partners p-5">
+      <div class="container management-firm p-5">
         <div class="row">
           <div class="col">
-            <!-- <img src="./assets/img/map.jpg" alt="img" class="partners-img" /> -->
+            <img
+              src="./assets/img/map.jpg"
+              alt="img"
+              class="management-firm-img"
+            />
           </div>
           <div class="col">
             <p>
@@ -202,7 +206,7 @@
       window.jQuery ||
         document.write(
           '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
-        );
+        )
     </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
@@ -215,24 +219,24 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $(".dropdown").hover(function () {
-        const dropdownMenu = $(this).children(".dropdown-menu");
-        if (!dropdownMenu.is(":visible")) {
-          dropdownMenu.toggleClass("d-block");
+      $('.dropdown').hover(function () {
+        const dropdownMenu = $(this).children('.dropdown-menu')
+        if (!dropdownMenu.is(':visible')) {
+          dropdownMenu.toggleClass('d-block')
         } else {
-          dropdownMenu.toggleClass("d-block");
+          dropdownMenu.toggleClass('d-block')
         }
-      });
+      })
 
       function changeBgcolor() {
         if (window.scrollY > 80) {
-          $("#mainNav").addClass("navbar-gray");
+          $('#mainNav').addClass('navbar-gray')
         } else {
-          $("#navbar").removeClass("navbar-gray");
+          $('#navbar').removeClass('navbar-gray')
         }
       }
 
-      window.addEventListener("scroll", changeBgcolor);
+      window.addEventListener('scroll', changeBgcolor)
     </script>
   </body>
 </html>
