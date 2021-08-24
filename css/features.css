@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+body {
+    width: 100%;
+    height: 100vh;
+}
+.container  {
+    height: 100%;
+}
+.card-container {
+    width: 100%;
+}
+.card-description {
+    min-height: 284px;
+}
+.card-container p {
+    font-family: 'Coda';
+    font-size: 14px;
+    line-height: 27px;
+}

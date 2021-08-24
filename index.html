@@ -14,10 +14,10 @@
   </head>
   <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#page-top"
-          ><img src="assets/img/navbar-logo.svg" alt="..."
+          ><img src="./assets/img/navbar-logo.svg" alt="..."
         /></a>
         <button
           class="navbar-toggler"
@@ -33,19 +33,42 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
+            <li id="company-dropdown-button" class="nav-item dropdown">
+              <a class="nav-link font-sm">Company</a>
+              <ul
+                id="company-sub-dropdown"
+                class="dropdown-menu text-capitalize p-0"
+              >
+                <li class="dropdown-item p-2 px-4 font-xs">Ideology</li>
+                <li class="dropdown-item p-2 px-4 font-xs">About</li>
+                <li class="dropdown-item p-2 px-4 font-xs">Leadership</li>
+              </ul>
+            </li>
+            <li id="sector-dropdown-button" class="nav-item dropdown">
+              <a class="nav-link font-sm">sector</a>
+              <ul
+                id="sector-sub-dropdown"
+                class="dropdown-menu text-capitalize p-0"
+              >
+                <li class="dropdown-item p-2 px-4 font-xs">
+                  Investment Management
+                </li>
+                <li class="dropdown-item p-2 px-4 font-xs">Asset Management</li>
+                <li class="dropdown-item p-2 px-4 font-xs">
+                  Development Management
+                </li>
+                <li class="dropdown-item p-2 px-4 font-xs">
+                  Foreign Direct Investments
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link font-sm">Relationships</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link font-sm">Investor Relations</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
+            <li class="nav-item"><a class="nav-link font-sm">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -65,7 +88,7 @@
       <div class="container partners p-5">
         <div class="row">
           <div class="col">
-            <img src="./assets/img/map.jpg" alt="img" class="partners-img" />
+            <!-- <img src="./assets/img/map.jpg" alt="img" class="partners-img" /> -->
           </div>
           <div class="col">
             <p>
@@ -191,5 +214,25 @@
       integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(".dropdown").hover(function () {
+        const dropdownMenu = $(this).children(".dropdown-menu");
+        if (!dropdownMenu.is(":visible")) {
+          dropdownMenu.toggleClass("d-block");
+        } else {
+          dropdownMenu.toggleClass("d-block");
+        }
+      });
+
+      function changeBgcolor() {
+        if (window.scrollY > 80) {
+          $("#mainNav").addClass("navbar-gray");
+        } else {
+          $("#navbar").removeClass("navbar-gray");
+        }
+      }
+
+      window.addEventListener("scroll", changeBgcolor);
+    </script>
   </body>
 </html>
