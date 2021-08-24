@@ -63,6 +63,7 @@
     </header>
     <!-- Services-->
     <section class="container-fluid home-content">
+ankit/contact
         <div class="container partners p-5">
             <div class="row">
                 <div class="col">
@@ -81,6 +82,29 @@
                     </p>
                 </div>
             </div>
+
+      <div class="container management-firm p-5">
+        <div class="row">
+          <div class="col">
+            <img
+              src="./assets/img/map.jpg"
+              alt="img"
+              class="management-firm-img"
+            />
+          </div>
+          <div class="col">
+            <p>
+              <span class="text-danger"> BEAUFORT GLOBAL PARTNERS </span>is a
+              leading investment, development and asset management firm, with
+              focus in hospitality real estate for hotels, resorts, commercial,
+              residential, infrastructure, master development, mixed-use and
+              governmental initiatives. Founded in Dubai, UAE it has over the
+              many years established relationships of trust at the highest
+              levels of government as well as public sector enterprise for
+              execution of global mandates on results-oriented delivery.
+            </p>
+          </div>
+ main
         </div>
     </section>
 
@@ -171,6 +195,7 @@
         </footer>
         <!-- Bootstrap core JavaScript
         ================================================== -->
+ankit/contact
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -210,3 +235,49 @@
 </body>
 
 </html>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+        )
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $('.dropdown').hover(function () {
+        const dropdownMenu = $(this).children('.dropdown-menu')
+        if (!dropdownMenu.is(':visible')) {
+          dropdownMenu.toggleClass('d-block')
+        } else {
+          dropdownMenu.toggleClass('d-block')
+        }
+      })
+
+      function changeBgcolor() {
+        if (window.scrollY > 80) {
+          $('#mainNav').addClass('navbar-gray')
+        } else {
+          $('#navbar').removeClass('navbar-gray')
+        }
+      }
+
+      window.addEventListener('scroll', changeBgcolor)
+    </script>
+  </body>
+</html>
+main
