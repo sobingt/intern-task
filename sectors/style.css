@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "DINPro";
+  src: url("./fonts/DINPro-Light.eot");
+  src: url("./fonts/DINPro-Light.eot#iefix") format("embedded-opentype"),
+    url("../assets/DINPro-Light.woff") format("woff2"),
+    url("../assets/DINPro-Light.woff") format("woff"),
+    url("../assets/DINPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
 body {
     background: rgb(177, 173, 173);
 }
@@ -53,4 +64,9 @@ body {
 }
 .services_list_tab ul li:hover {
     color: #af2331;
+}
+
+.content_container > ul li {
+    margin: 10px 16px;
+    padding: 0 15px;
 }
