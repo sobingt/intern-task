@@ -1246,6 +1246,14 @@ section.container {
     }
 }
 @media (max-width: 540px) {
+
+  section.container .welcome-logo {
+    width: calc(100vw - 100px);
+  }
+  section.page-content p {
+    text-align: center;
+  }
+
     /* Start of sector pages  */
   .container .content_container {
     padding: 5px 0;
@@ -1266,7 +1274,9 @@ section.container {
 }
 @media (max-width: 768px) {
     .about-container .about-body p {
-      font-size: 13px;
+      font-size: 12px;
+      line-height: 22px;
+      padding-bottom: 10px;
     }
     .container .content_container p {
       text-align: center;
@@ -1276,5 +1286,11 @@ section.container {
     }
     .footer-wrapper .footer .address-header, .send-mail {
       justify-content: center;
+    }
+    .about-container .about-body .about-black {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: -2px;
+      font-weight: 500;
     }
 }
