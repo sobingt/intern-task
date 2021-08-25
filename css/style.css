@@ -962,7 +962,7 @@ section.container {
 
 .about-body {
   margin-top: 50px;
-  padding: 45px 50px;
+  padding: 45px 40px;
   background-color: #fff;
   border: 1px solid #dadada;
   max-width: 75rem;
@@ -1252,8 +1252,7 @@ section.container {
       border-left: 1px solid black;
     }
 }
-
-@media (max-width: 499px) {
+@media (max-width: 540px) {
     /* Start of sector pages  */
   .container .content_container {
     padding: 5px 0;
@@ -1261,6 +1260,7 @@ section.container {
   
     /* Start of footer section  */
   .footer-wrapper .footer .footer-btn,.col-2-btn {
+    text-align: center;
     display: block;
     width: 100%;
   }
@@ -1272,6 +1272,9 @@ section.container {
   }
 }
 @media (max-width: 768px) {
+    .about-container .about-body p {
+      font-size: 13px;
+    }
     .container .content_container p {
       text-align: center;
     }
