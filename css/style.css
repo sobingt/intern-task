@@ -12,34 +12,27 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
 @font-face {
-
   font-family: "DINPro";
-  src: url("/assets/fonts/DINPro-Light.eot");
-  src: url("/assets/fonts/DINPro-Light.eot#iefix") format("embedded-opentype"),
-    url("/assets/fonts/DINPro-Light.woff2") format("woff2"),
-    url("/assets/fonts/DINPro-Light.woff") format("woff"),
-    url("/assets/fonts/DINPro-Light.ttf") format("truetype");
-
+  src: url("./assets/fonts/DINPro-Light.eot");
+  src: url("./assets/fonts/DINPro-Light.eot#iefix") format("embedded-opentype"),
+    url("../assets/fonts/DINPro-Light.woff2") format("woff2"),
+    url("../assets/fonts/DINPro-Light.woff") format("woff"),
+    url("../assets/fonts/DINPro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-
   font-family: "DINPro";
-  src: url("/assets/fonts/DINPro-Medium.eot");
-  src: url("/assets/fonts/INPro-Medium.eot#iefix") format("embedded-opentype"),
-    url("/assets/fonts/DINPro-Medium.woff2") format("woff2"),
-    url("/assets/fonts/DINPro-Medium.woff") format("woff"),
-    url("/assets/fonts/DINPro-Medium.ttf") format("truetype"),
-    url("/assets/fonts/DINPro-Medium.svg#DINPro-Medium") format("svg");
-
+  src: url("./assets/fonts/DINPro-Medium.eot");
+  src: url("./assets/fonts/INPro-Medium.eot#iefix") format("embedded-opentype"),
+    url("./assets/fonts/DINPro-Medium.woff2") format("woff2"),
+    url("../assets/fonts/DINPro-Medium.woff") format("woff"),
+    url("../assets/fonts/DINPro-Medium.ttf") format("truetype"),
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
 
   font-family: "DINPro";
@@ -864,6 +857,88 @@ section.page-content {
 
 /* End of Contact */
 
+
+/* Start of Sector Page */
+
+section.container {
+    background: white;
+    max-width: 1200px;
+    padding: 30px 20px;
+    margin: 50px auto;
+    height: fit-content;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.content-wrapper .image_container > div{
+    width: 100%;
+}
+.content-wrapper .image_container img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.content-wrapper .content_container {
+    padding: 0 20px;
+    font-family: 'DINPro';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+}
+.content_container p {
+    padding: 0px 0px 14px;
+    margin: 0;
+}
+.services_list_tab {
+    margin: 40px 0 30px;
+}
+.services_list_tab ul.sector-tab {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services_list_tab > ul.sector-tab > li.tab-item {
+  font-family: 'DINPro';
+    font-weight: 500;
+    font-size: 18px;
+    color: #af2331;
+    border-right: 1px solid black;
+    padding: 5px 20px 14px 0px;
+    margin-right: 25px;
+    cursor: pointer;
+    color: black;
+}
+.services_list_tab ul.sector-tab li:nth-child(4) {
+    border: none;
+}
+.services_list_tab ul.sector-tab li.active-tab {
+    color: #af2331;
+}
+
+.content_container > ul {
+    font-size: 13px;
+    margin: -10px 0 0;
+}
+
+.content_container > ul li {
+  padding: 0 15px;
+  margin: 10px 16px;
+}
+
+/* End of Sector Page  */
+
+/*** Start of Navbar ***/
+
+#mainNav {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/*** End of Navbar ***/
+
+
 /* Start of About */
 
 .about-container,
@@ -1122,7 +1197,6 @@ section.page-content {
  font-weight: 500;
  font-family: DINPro;
 }
-
 
 
 /* End of Investor Relations*/
