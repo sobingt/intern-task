@@ -457,6 +457,49 @@ header.masthead .masthead-heading {
 /*** End of Trusted Relationship Section ***/
 
 
+/* Start of Home section */
+
+.home{
+    width: 100%;
+}
+
+.home-title h1 {
+    position: absolute;
+    top: 280px;
+    left: 215px;
+    opacity: 1;
+    margin-left: 15px;
+    font-family: 'Eurostile Extended';
+    font-size: 14px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    background-color: #af2330;
+    color: white;
+    display: inline-block;
+    padding: 10px 40px;
+
+}
+.home-title p {
+    position: absolute;
+    top: 330px;
+    left: 215px;
+    opacity: 1;
+    margin-left: 0px;
+    font-family: 'Eurostile Extended';
+    font-size: 14px;
+    font-family: DINPro;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: white;
+    color: #af2330;
+    display: inline-block;
+    padding: 10px 40px;
+
+}
+
+/* Start of Home section */
+
+
 /*** Start of Footer ***/
 
 .footer-wrapper {
