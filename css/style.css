@@ -1,9 +1,12 @@
 @charset "UTF-8";
+
 /*!
 * Start Bootstrap - Agency v7.0.6 (https://startbootstrap.com/theme/agency)
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
+
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -12,49 +15,49 @@
  */
 
 @font-face {
-  font-family: "DINPro";
-  src: url("/assets/fonts/DINPro-Light.eot");
-  src: url("/assets/fonts/DINPro-Light.eot#iefix") format("embedded-opentype"),
-    url("/assets/fonts/DINPro-Light.woff2") format("woff2"),
-    url("/assets/fonts/DINPro-Light.woff") format("woff"),
-    url("/assets/fonts/DINPro-Light.ttf") format("truetype");
+  font-family: 'DINPro';
+  src: url('/assets/fonts/DINPro-Light.eot');
+  src: url('/assets/fonts/DINPro-Light.eot#iefix') format('embedded-opentype'),
+    url('/assets/fonts/DINPro-Light.woff2') format('woff2'),
+    url('/assets/fonts/DINPro-Light.woff') format('woff'),
+    url('/assets/fonts/DINPro-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "DINPro";
-  src: url("/assets/fonts/DINPro-Medium.eot");
-  src: url("/assets/fonts/INPro-Medium.eot#iefix") format("embedded-opentype"),
-    url("/assets/fonts/DINPro-Medium.woff2") format("woff2"),
-    url("/assets/fonts/DINPro-Medium.woff") format("woff"),
-    url("/assets/fonts/DINPro-Medium.ttf") format("truetype"),
-    url("/assets/fonts/DINPro-Medium.svg#DINPro-Medium") format("svg");
+  font-family: 'DINPro';
+  src: url('/assets/fonts/DINPro-Medium.eot');
+  src: url('/assets/fonts/INPro-Medium.eot#iefix') format('embedded-opentype'),
+    url('/assets/fonts/DINPro-Medium.woff2') format('woff2'),
+    url('/assets/fonts/DINPro-Medium.woff') format('woff'),
+    url('/assets/fonts/DINPro-Medium.ttf') format('truetype'),
+    url('/assets/fonts/DINPro-Medium.svg#DINPro-Medium') format('svg');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "DINPro";
-  src: url("/assets/fonts/DINPro-Black.eot");
-  src: url("/assets/fonts/DINPro-Black.eot#iefix") format("embedded-opentype"),
-    url("/assets/fonts/DINPro-Black.woff2") format("woff2"),
-    url("/assets/fonts/DINPro-Black.woff") format("woff"),
-    url("/assets/fonts/DINPro-Black.ttf") format("truetype");
+  font-family: 'DINPro';
+  src: url('/assets/fonts/DINPro-Black.eot');
+  src: url('/assets/fonts/DINPro-Black.eot#iefix') format('embedded-opentype'),
+    url('/assets/fonts/DINPro-Black.woff2') format('woff2'),
+    url('/assets/fonts/DINPro-Black.woff') format('woff'),
+    url('/assets/fonts/DINPro-Black.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Eurostile Extended";
-  src: url("/assets/fonts/EurostileLTStd-BoldEx2.eot");
-  src: url("/assets/fonts/EurostileLTStd-BoldEx2.eot#iefix")
-      format("embedded-opentype"),
-    url("/assets/fonts/EurostileLTStd-BoldEx2.woff2") format("woff2"),
-    url("/assets/fonts/EurostileLTStd-BoldEx2.woff") format("woff"),
-    url("/assets/fonts/EurostileLTStd-BoldEx2.ttf") format("truetype"),
-    url("/assets/fonts/EurostileLTStd-BoldEx2.svg#EurostileLTStd-BoldEx2")
-      format("svg");
+  font-family: 'Eurostile Extended';
+  src: url('/assets/fonts/EurostileLTStd-BoldEx2.eot');
+  src: url('/assets/fonts/EurostileLTStd-BoldEx2.eot#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/EurostileLTStd-BoldEx2.woff2') format('woff2'),
+    url('/assets/fonts/EurostileLTStd-BoldEx2.woff') format('woff'),
+    url('/assets/fonts/EurostileLTStd-BoldEx2.ttf') format('truetype'),
+    url('/assets/fonts/EurostileLTStd-BoldEx2.svg#EurostileLTStd-BoldEx2')
+      format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -62,13 +65,13 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
-  }
+     :root {
+        scroll-behavior: smooth;
+    }
 }
 
 html,
@@ -152,29 +155,29 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  font-family: DINPro;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: DINPro;
 }
 
 body {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 hr {
-  margin: 1rem 0;
-  color: inherit;
-  background-color: currentColor;
-  border: 0;
-  opacity: 0.25;
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
 }
 
 hr:not([size]) {
-  height: 1px;
+    height: 1px;
 }
 
 h6,
@@ -189,671 +192,791 @@ h2,
 .h2,
 h1,
 .h1 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 h1,
 .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+    font-size: calc(1.375rem + 1.5vw);
 }
+
 @media (min-width: 1200px) {
-  h1,
-  .h1 {
-    font-size: 2.5rem;
-  }
+    h1,
+    .h1 {
+        font-size: 2.5rem;
+    }
 }
 
 h2,
 .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+    font-size: calc(1.325rem + 0.9vw);
 }
+
 @media (min-width: 1200px) {
-  h2,
-  .h2 {
-    font-size: 2rem;
-  }
+    h2,
+    .h2 {
+        font-size: 2rem;
+    }
 }
 
 h3,
 .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+    font-size: calc(1.3rem + 0.6vw);
 }
+
 @media (min-width: 1200px) {
-  h3,
-  .h3 {
-    font-size: 1.75rem;
-  }
+    h3,
+    .h3 {
+        font-size: 1.75rem;
+    }
 }
 
 h4,
 .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+    font-size: calc(1.275rem + 0.3vw);
 }
+
 @media (min-width: 1200px) {
-  h4,
-  .h4 {
-    font-size: 1.5rem;
-  }
+    h4,
+    .h4 {
+        font-size: 1.5rem;
+    }
 }
 
 h5,
 .h5 {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 h6,
 .h6 {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
-  padding-bottom: 14px;
+    font-family: DINPro;
+    font-weight: 300;
+    color: #000000;
+    font-size: 14px;
+    line-height: 27px;
+    padding-bottom: 14px;
 }
 
 html {
-  scroll-padding-top: 4.5rem;
+    scroll-padding-top: 4.5rem;
 }
 
 body {
-  position: relative;
-  overflow-x: hidden;
+    position: relative;
+    overflow-x: hidden;
 }
 
 p {
-  line-height: 1.75;
+    line-height: 1.75;
 }
 
 @media (min-width: 768px) {
-  section {
-    padding: 9rem 0;
-  }
+    section {
+        padding: 9rem 0;
+    }
 }
+
 .btn-xl {
-  padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.125rem;
-  font-weight: 700;
+    padding: 1.25rem 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 700;
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border-radius: 100%;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #212529;
-}
-#mainNav .navbar-toggler {
-  padding: 0.75rem;
-  font-size: 0.75rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
-  font-weight: 700;
-}
-#mainNav .navbar-brand {
-  color: #ffc800;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  letter-spacing: 0.0625em;
-  text-transform: uppercase;
-}
-#mainNav .navbar-brand img {
-  height: 1.5rem;
-}
-#mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
-  color: #fff;
-  letter-spacing: 0.0625em;
-}
-#mainNav .navbar-nav .nav-item .nav-link.active,
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
-}
-
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    border: none;
-    background-color: transparent;
-    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
-  }
-  #mainNav .navbar-brand {
-    font-size: 1.5em;
-    transition: font-size 0.3s ease-in-out;
-  }
-  #mainNav .navbar-brand img {
-    height: 2rem;
-    transition: height 0.3s ease-in-out;
-  }
-  #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #212529;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
-  }
-  #mainNav.navbar-shrink .navbar-brand svg,
-  #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
-  }
-  #mainNav .navbar-nav .nav-item {
-    margin-right: 1rem;
-  }
-  #mainNav .navbar-nav .nav-item:last-child {
-    margin-right: 0;
-  }
-}
-header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
-header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-style: italic;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-header.masthead .masthead-heading {
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
-  header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
-  }
-  header.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-  }
 }
 
-/*** Start of Trusted Relationship Section ***/
-.trusted-relationship-container {
-  width: 100%;
-  background-color: #f2f2f2;
+#mainNav .navbar-toggler {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 700;
 }
+
+#mainNav .navbar-brand {
+    color: #ffc800;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+}
+
+#mainNav .navbar-brand img {
+    height: 1.5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625em;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #ffc800;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+        font-size: 1.5em;
+        transition: font-size 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand img {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+    }
+    #mainNav.navbar-shrink .navbar-brand svg,
+    #mainNav.navbar-shrink .navbar-brand img {
+        height: 1.5rem;
+    }
+    #mainNav .navbar-nav .nav-item {
+        margin-right: 1rem;
+    }
+    #mainNav .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+}
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+    header.masthead .masthead-subheading {
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+    header.masthead .masthead-heading {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+
+/*** Start of Trusted Relationship Section ***/
+
+.trusted-relationship-container {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
 .trusted-relationship {
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
-  background: white;
-  padding-bottom: 50px;
-  padding-left: 37px;
-  padding-right: 20px;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding-bottom: 50px;
+    padding-left: 37px;
+    padding-right: 20px;
 }
 
 .trusted-relationship h3 {
-  font-family: "Eurostile Extended";
-  font-size: 22px;
-  text-transform: uppercase;
-  padding: 56px 0px 26px 0px;
-  color: #af2331;
+    font-family: "Eurostile Extended";
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 56px 0px 26px 0px;
+    color: #af2331;
 }
 
 .trusted-relationship p {
-  font-size: 16px;
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 18px;
-  line-height: 27px;
-  padding-bottom: 14px;
+    font-size: 16px;
+    font-family: DINPro;
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 14px;
 }
 
 .trusted-relationship-img {
-  display: flex;
-}
-.trusted-relationship-img img {
-  padding: 0 15px;
-  width: 228px;
-  height: 198px;
+    display: flex;
 }
 
+.trusted-relationship-img img {
+    padding: 0 15px;
+    width: 228px;
+    height: 198px;
+}
+
+
 /*** End of Trusted Relationship Section ***/
+
 
 /*** Start of Footer ***/
 
 .footer-wrapper {
-  background-color: #d9d9d9;
-  padding: 50px 0px;
-  display: flex;
-  margin-top: 50px;
+    background-color: #d9d9d9;
+    padding: 50px 0px;
+    display: flex;
+    margin-top: 50px;
 }
+
 .address .address-header strong {
-  font-size: 14px;
-  font-family: "DINPro";
-  font-weight: bold;
-  color: #000000;
+    font-size: 14px;
+    font-family: "DINPro";
+    font-weight: bold;
+    color: #000000;
 }
 
 .address .address-header {
-  display: flex;
-  align-items: center;
-  padding: 15px 0 5px 0;
+    display: flex;
+    align-items: center;
+    padding: 15px 0 5px 0;
 }
+
 .address .address-header span {
-  padding-right: 6px;
+    padding-right: 6px;
 }
 
 .address .address-description {
-  font-family: "DINPro";
-  font-size: 13px;
-  font-weight: 300;
-  color: #0a0a0a;
+    font-family: "DINPro";
+    font-size: 13px;
+    font-weight: 300;
+    color: #0a0a0a;
 }
 
 .footer .send-mail {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 18px 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 18px 0 0 0;
 }
+
 .footer .send-mail .mail-link a {
-  vertical-align: baseline;
-  font-family: DINPro;
-  text-decoration: underline;
-  color: #000000;
-  font-size: 13px;
-  font-weight: 300;
+    vertical-align: baseline;
+    font-family: DINPro;
+    text-decoration: underline;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 300;
 }
 
 .footer .send-mail .mail-link a:hover {
-  color: #af2331;
+    color: #af2331;
 }
 
 a:active,
 a:hover {
-  outline: 0;
+    outline: 0;
 }
+
 .footer-col-2 {
-  border-left: 1px solid #000000;
-  border-right: 1px solid #000000;
-  padding-left: 3%;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-left: 3%;
 }
+
 .footer-col-2,
 .footer-col-3 {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .footer-col-3 {
-  padding-left: 3%;
+    padding-left: 3%;
 }
+
 .footer-btn {
-  font-family: DINPro;
-  font-weight: 500;
-  color: #000000;
-  font-size: 18px;
-  text-transform: uppercase;
-  background-color: #c3c3c3;
-  display: table;
-  padding: 8px 12px;
-  margin-bottom: 12px;
-  -webkit-transition: 0.25s ease-in-out;
-  cursor: pointer;
+    font-family: DINPro;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #c3c3c3;
+    display: table;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    -webkit-transition: 0.25s ease-in-out;
+    cursor: pointer;
 }
+
 .footer-btn span {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 .footer-btn:hover {
-  color: #ffffff;
-  background-color: #af2331;
-  -webkit-transition: 0.25s ease-in-out;
+    color: #ffffff;
+    background-color: #af2331;
+    -webkit-transition: 0.25s ease-in-out;
 }
 
 .col-2-btn {
-  width: 100px;
+    width: 100px;
 }
 
 .col2 img {
-  width: 190px;
-  height: 57px;
-  cursor: pointer;
+    width: 190px;
+    height: 57px;
+    cursor: pointer;
 }
+
 .col2 img:hover {
-  margin-left: 15px;
-  -webkit-transition: 0.25s ease-in-out;
+    margin-left: 15px;
+    -webkit-transition: 0.25s ease-in-out;
 }
 
 ul.sector-list li {
-  list-style: none;
+    list-style: none;
 }
 
 ul.sector-list li img {
-  width: 190px;
+    width: 190px;
 }
+
+
 /*** End of Footer ***/
+
 
 /* management-firm */
 
 .management-firm {
-  background-color: #fff;
-  margin-top: -18rem;
-  width: 1200px;
+    background-color: #fff;
+    margin-top: -18rem;
+    width: 1200px;
 }
 
 .management-firm p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
-  padding-bottom: 14px;
+    font-family: DINPro;
+    font-weight: 300;
+    color: #000000;
+    font-size: 14px;
+    line-height: 27px;
+    padding-bottom: 14px;
 }
+
 .management-firm p span {
-  color: #af2330;
-  font-family: DINPro;
-  font-size: 15px;
+    color: #af2330;
+    font-family: DINPro;
+    font-size: 15px;
 }
+
 .text-danger {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
+
 .management-firm img {
-  width: 100%;
+    width: 100%;
 }
+
+
 /* End of management-firm */
 
+
 /* Start of Ideology */
+
 .ideology {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 20px;
-  width: 1200px;
-  height: 673px;
-  margin: 0 auto;
-  margin-top: 10rem;
-  margin-bottom: 5rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    width: 1200px;
+    height: 673px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
 .ideology h3 {
-  color: #af2331;
-  margin-bottom: 20px;
-  font-size: 17px;
-  text-transform: uppercase;
-  font-family: "Eurostile Extended";
+    color: #af2331;
+    margin-bottom: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: "Eurostile Extended";
 }
+
 .ideology-details p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  line-height: 27px;
-  padding-bottom: 14px;
+    font-family: DINPro;
+    font-weight: 300;
+    color: #000000;
+    line-height: 27px;
+    padding-bottom: 14px;
 }
+
 .ideology-title {
-  color: #af2331;
-  margin-bottom: 20px;
-  font-family: "Eurostile Extended";
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
+    color: #af2331;
+    margin-bottom: 20px;
+    font-family: "Eurostile Extended";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
 }
+
+
 /* End of Ideology */
 
+
 /* Start of Page Layout */
+
 section.page-content {
-  background-color: #ffffff;
-  margin-top: 50px;
-  padding: 30px 20px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 30px 20px;
 }
 
 .welcome-logo {
-  position: relative;
-  margin: 0 auto;
-  width: 400px;
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
 }
+
 .welcome-logo img {
-  width: inherit;
+    width: inherit;
 }
+
 
 /* End of Page Layout */
 
+
 /* Start of Contact */
+
 .contact {
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
-  background: white;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding-bottom: 50px;
+    padding-left: 37px;
+    padding-right: 20px;
+    padding-top: 30px;
 }
 
 .contact h2 {
-  color: #9d1f2b;
-  line-height: 100%;
-  margin: 20px 0px 10px 0px;
-  font-family: "Eurostile Extended";
-  margin-bottom: 30px;
-  font-size: 22px;
-  text-transform: uppercase;
+    color: #9d1f2b;
+    line-height: 100%;
+    margin: 20px 0px 10px 0px;
+    font-family: "Eurostile Extended";
+    margin-bottom: 30px;
+    font-size: 22px;
 }
+
 .contact-info-container {
-  padding-right: 60px;
+    width: 40%;
 }
 
 .contact-info {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
 }
+
 .contact-address p {
-  line-height: 20px;
-  font-weight: 500;
-  padding-bottom: 0px;
-  font-size: 14px;
-  color: #000000;
-  margin-bottom: 0;
-  font-family: DINPro;
-  margin-top: 0 !important;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 0;
+    font-family: DINPro;
+    margin-top: 0 !important;
 }
+
 .contact-img img {
-  width: 129px;
-  height: 179px;
+    width: 129px;
+    height: 179px;
 }
+
 .btn-dir {
-  font-size: 13px;
-  background: #9d1f2b;
-  color: #ffffff;
-  padding: 8px 15px;
-  margin-top: 10px;
-  font: revert;
-  vertical-align: baseline;
-  font-family: DINPro;
-  border: none;
+    font-size: 13px;
+    background: #9d1f2b;
+    color: #ffffff;
+    padding: 8px 15px;
+    margin-top: 10px;
+    font: revert;
+    vertical-align: baseline;
+    font-family: DINPro;
+    border: none;
 }
 
 .contact-btn {
-  vertical-align: baseline;
-  font-family: DINPro;
-  background: #9d1f2b;
-  color: #ffffff;
-  padding: 13px 20px;
-  display: inline-block;
-  font-size: 13px;
-  margin-top: 100px;
-  border: none;
+    vertical-align: baseline;
+    font-family: DINPro;
+    background: #9d1f2b;
+    color: #ffffff;
+    padding: 13px 20px;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 100px;
+    border: none;
 }
 
 .contact-container {
-  display: flex;
-  gap: 80px;
+    display: flex;
+    gap: 80px;
 }
 
 .contact-input label {
-  padding-bottom: 10px;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: DINPro;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: DINPro;
 }
 
 .contact-input input {
-  width: 100%;
-  height: 39px;
-  padding: 0.5rem;
-  border: 1px solid #cacaca;
-  margin: 0 0 1rem;
-  font-family: inherit;
-  font-size: 1rem;
-  color: #0a0a0a;
-  background-color: #fefefe;
-  box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
-  border-radius: 0;
-  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
-  -webkit-appearance: none;
-  font-weight: 300;
+    width: 100%;
+    height: 21px;
+    padding: 0.5rem;
+    border: 1px solid #cacaca;
+    margin: 0 0 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #0a0a0a;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    border-radius: 0;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    font-weight: 300;
 }
 
 .form-submit {
-  background: #9d1f2b;
-  color: #ffffff;
-  padding: 8px 20px;
-  border: none;
-  font-size: 17px;
-  font-weight: 300;
-  font-family: DINPro;
-  margin-top: 20px;
+    background: #9d1f2b;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: DINPro;
+    margin-top: 20px;
 }
+
 
 /* End of Contact */
 
 
- /* sart of INVESTOR RELATIONS */
- .investor-relation{
-   
+/* Start of About */
 
- }
- .investor-relation h2{
-  color: #9d1f2b;
-  line-height: 100%;
-  margin: 20px 0px 10px 0px;
-  text-transform: uppercase;
-  font-size: 22px;
-  font-family: 'Eurostile Extended';
-
- }
- .investor-relation-content{
-  padding: 20px 0px;
- }
- .investor-relation-content p{
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
-  padding-bottom: 14px;
- }
- .investor-relation-img-form-container{
-   display: flex;
- }
- .investor-relation-img{
-   padding:0 30px;
- }
-
- .investor-relation-img img{
-   width: 550px;
-   height: 233px;
-   margin-top: 30px;
- }
-
- .investor-relation-login-form{
-   padding: 0 15px;
- }
- .investor-relation-login-form h2{
-  color: #9d1f2b;
-  line-height: 100%;
-  margin: 20px 0 30px 0px;
-  text-transform: uppercase;
-  font-size: 22px;
-  font-family: 'Eurostile Extended';
-
- }
- .investor-relation-login-form label{
-  padding-bottom: 10px;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: DINPro;
-
- }
- .investor-relation-login-form input{
-  width: 180%;
-  height: 39px;
-  padding: 0.5rem;
-  border: 1px solid #cacaca;
-  margin: 0 0 1rem;
-  font-family: inherit;
-  font-size: 1rem;
-  color: #0a0a0a;
-  background-color: #fefefe;
-  box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
-  border-radius: 0;
-  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
-  -webkit-appearance: none;
-  font-weight: 300;
-
- }
- .investor-relation-login-form button{
-  background: #9d1f2b;
-  color: #FFFFFF;
-  padding: 8px 20px;
-  border: none;
-  font-size: 17px;
-  font-weight: 500;
-  font-family: DINPro;
+.about-container,
+.leadership-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
- 
+
+.about-body {
+    margin-top: 50px;
+    padding: 45px 50px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    max-width: 75rem;
+}
+
+.red-title {
+    font-size: 22px;
+    color: #9d1f2b;
+    line-height: 100%;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+    font-family: "Eurostile Extended";
+    margin-bottom: 40px;
+}
+
+.about-paragraph {
+    font-family: DINPro;
+    font-weight: 300;
+    color: #000000;
+    font-size: 14px;
+    line-height: 27px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+.about-container .about-body hr {
+    margin-top: 50px;
+}
+
+.about-mid-col {
+    margin: 40px 0px;
+}
+
+.red-color {
+    color: #9d1f2b;
+}
+
+.about-small-gray {
+    font-size: 12px;
+    margin-bottom: -2px;
+    font-weight: 500;
+    text-align: center;
+    color: #585858;
+}
+
+.about-black {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -2px;
+    font-weight: 500;
+    color: #000000;
+}
 
 
- /* End of INVESTOR RELATIONS */
+/* End of About */
+
+
+/*Start of Leadership*/
+.leadership-center , .leader-container {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.leadership-container , .leader-content {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 45px 50px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    max-width: 75rem;
+}
+
+.leadership-container h2 {
+    text-align: left;
+    width: 100%;
+}
+
+.leaders-row {
+    display: flex;
+}
+
+.leaders-col{
+    width: 20%;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+.leaders-col a {
+    font-family: DINPro;
+    color: #9d1f2b;
+    text-decoration: none;
+    font-size: 16px;
+}
+.leaders-col p {
+    font-family: DINPro;
+    font-weight: 300;
+    color: #000000;
+    font-size: 14px;
+    line-height: 27px;
+    padding-bottom: 14px;
+}
+.leaders-col img {
+    width: 100%;
+}
+
+.leader-name {
+    font-size: 22px;
+    color: #9d1f2b;
+    line-height: 100%;
+    margin: 20px 0px 10px 0px;
+    text-transform: uppercase;
+    font-family: "Eurostile Extended";
+}.leader-designation {
+    font-family: DINPro;
+}.leader-image {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    align-items: flex-end;
+}.badge-1 {
+    max-width: 124px;
+}.leader-content {
+    position: relative;
+}.leader-paragraph p{
+    position: absolute;
+    top: 125px;
+    right: 20px;
+    max-width: 71%;
+}.leader-bottom-badges {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}.leader-bottom-badges img {
+    width: 216px;
+    height: 173px;
+}.next-page {
+    text-align: end;
+    
+}.next-page-link {
+    background: #9d1f2b;
+    padding: 10px 20px;
+    height: 36px;
+    line-height: 16px;
+    color: white;
+    text-decoration: none;
+}.next-page-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/*End of Leadership*/
