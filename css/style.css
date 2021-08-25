@@ -194,9 +194,9 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -289,9 +289,9 @@ p {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -306,6 +306,13 @@ p {
   border-radius: 100%;
 }
 
+/* Start of Navbar */
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+}
+/* End of Navbar */
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -315,18 +322,18 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   text-transform: uppercase;
   font-weight: 700;
 }
 
 #mainNav .navbar-brand {
   color: #ffc800;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -337,9 +344,9 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
@@ -391,7 +398,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url('../assets/img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -403,9 +410,9 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 header.masthead .masthead-heading {
@@ -413,9 +420,9 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 @media (min-width: 768px) {
@@ -455,7 +462,7 @@ header.masthead .masthead-heading {
 }
 
 .trusted-relationship h3 {
-  font-family: "Eurostile Extended";
+  font-family: 'Eurostile Extended';
   font-size: 22px;
   text-transform: uppercase;
   padding: 56px 0px 26px 0px;
@@ -525,8 +532,11 @@ header.masthead .masthead-heading {
 /* Start of Home section */
 
 /*** Start of Footer ***/
-
+footer.container-fluid {
+  background-color: #d9d9d9;
+}
 .footer-wrapper {
+  padding-left: 7rem !important;
   background-color: #d9d9d9;
   padding: 50px 0px;
   display: flex;
@@ -535,7 +545,7 @@ header.masthead .masthead-heading {
 
 .address .address-header strong {
   font-size: 14px;
-  font-family: "DINPro";
+  font-family: 'DINPro';
   font-weight: bold;
   color: #000000;
 }
@@ -551,7 +561,7 @@ header.masthead .masthead-heading {
 }
 
 .address .address-description {
-  font-family: "DINPro";
+  font-family: 'DINPro';
   font-size: 13px;
   font-weight: 300;
   color: #0a0a0a;
@@ -652,6 +662,8 @@ ul.sector-list li img {
   background-color: #fff;
   margin-top: -18rem;
   width: 1200px;
+  position: relative;
+  z-index: 1;
 }
 
 .management-firm p {
@@ -700,7 +712,7 @@ ul.sector-list li img {
   margin-bottom: 20px;
   font-size: 17px;
   text-transform: uppercase;
-  font-family: "Eurostile Extended";
+  font-family: 'Eurostile Extended';
 }
 
 .ideology-details p {
@@ -714,7 +726,7 @@ ul.sector-list li img {
 .ideology-title {
   color: #af2331;
   margin-bottom: 20px;
-  font-family: "Eurostile Extended";
+  font-family: 'Eurostile Extended';
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
@@ -760,7 +772,7 @@ section.page-content {
   color: #9d1f2b;
   line-height: 100%;
   margin: 20px 0px 10px 0px;
-  font-family: "Eurostile Extended";
+  font-family: 'Eurostile Extended';
   margin-bottom: 30px;
   font-size: 22px;
 }
@@ -938,7 +950,6 @@ section.container {
 
 /*** End of Navbar ***/
 
-
 /* Start of About */
 
 .about-container,
@@ -963,7 +974,7 @@ section.container {
   line-height: 100%;
   margin: 20px 0px 10px 0px;
   text-align: center;
-  font-family: "Eurostile Extended";
+  font-family: 'Eurostile Extended';
   margin-bottom: 40px;
 }
 
@@ -1063,7 +1074,7 @@ section.container {
   line-height: 100%;
   margin: 20px 0px 10px 0px;
   text-transform: uppercase;
-  font-family: "Eurostile Extended";
+  font-family: 'Eurostile Extended';
 }
 .leader-designation {
   font-family: DINPro;
@@ -1113,90 +1124,86 @@ section.container {
 
 /*End of Leadership*/
 
-
- /* Start Investor Relations*/
- .investor-relation{
-   
-
+/* Start Investor Relations*/
+.investor-relation {
 }
-.investor-relation h2{
- color: #9d1f2b;
- line-height: 100%;
- margin: 20px 0px 10px 0px;
- text-transform: uppercase;
- font-size: 22px;
- font-family: 'Eurostile Extended';
-
+.investor-relation h2 {
+  color: #9d1f2b;
+  line-height: 100%;
+  margin: 20px 0px 10px 0px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: 'Eurostile Extended';
 }
-.investor-relation-content{
- padding: 20px 0px;
+.investor-relation-content {
+  padding: 20px 0px;
 }
-.investor-relation-content p{
- font-family: DINPro;
- font-weight: 300;
- color: #000000;
- font-size: 14px;
- line-height: 27px;
- padding-bottom: 14px;
+.investor-relation-content p {
+  font-family: DINPro;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14px;
+  line-height: 27px;
+  padding-bottom: 14px;
 }
-.investor-relation-img-form-container{
+.investor-relation-img-form-container {
   display: flex;
 }
-.investor-relation-img{
-  padding:0 30px;
+.investor-relation-img {
+  padding: 0 30px;
 }
 
-.investor-relation-img img{
+.investor-relation-img img {
   width: 550px;
   height: 233px;
   margin-top: 30px;
 }
 
-.investor-relation-login-form{
+.investor-relation-login-form {
   padding: 0 15px;
 }
-.investor-relation-login-form h2{
- color: #9d1f2b;
- line-height: 100%;
- margin: 20px 0 30px 0px;
- text-transform: uppercase;
- font-size: 22px;
- font-family: 'Eurostile Extended';
+.investor-relation-login-form h2 {
+  color: #9d1f2b;
+  line-height: 100%;
+  margin: 20px 0 30px 0px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: 'Eurostile Extended';
+}
+.investor-relation-login-form label {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: DINPro;
+}
+.investor-relation-login-form input {
+  width: 180%;
+  height: 39px;
+  padding: 0.5rem;
+  border: 1px solid #cacaca;
+  margin: 0 0 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #0a0a0a;
+  background-color: #fefefe;
+  box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+  border-radius: 0;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  -webkit-appearance: none;
+  font-weight: 300;
+}
+.investor-relation-login-form button {
+  background: #9d1f2b;
+  color: #ffffff;
+  padding: 8px 20px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: DINPro;
+}
 
-}
-.investor-relation-login-form label{
- padding-bottom: 10px;
- font-size: 16px;
- font-weight: 300;
- font-family: DINPro;
 
-}
-.investor-relation-login-form input{
- width: 180%;
- height: 39px;
- padding: 0.5rem;
- border: 1px solid #cacaca;
- margin: 0 0 1rem;
- font-family: inherit;
- font-size: 1rem;
- color: #0a0a0a;
- background-color: #fefefe;
- box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
- border-radius: 0;
- transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
- -webkit-appearance: none;
- font-weight: 300;
 
-}
-.investor-relation-login-form button{
- background: #9d1f2b;
- color: #FFFFFF;
- padding: 8px 20px;
- border: none;
- font-size: 17px;
- font-weight: 500;
- font-family: DINPro;
-}
 
 
 /* End of Investor Relations*/
