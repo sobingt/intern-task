@@ -1043,3 +1043,90 @@ section.page-content {
     list-style: none;
     max-width: 14vw;
 }
+
+/*End of Leadership*/
+
+
+ /* Start Investor Relations*/
+.investor-relation h2{
+ color: #9d1f2b;
+ line-height: 100%;
+ margin: 20px 0px 10px 0px;
+ text-transform: uppercase;
+ font-size: 22px;
+ font-family: 'Eurostile Extended';
+
+}
+.investor-relation-content{
+ padding: 20px 0px;
+}
+.investor-relation-content p{
+ font-family: DINPro;
+ font-weight: 300;
+ color: #000000;
+ font-size: 14px;
+ line-height: 27px;
+ padding-bottom: 14px;
+}
+.investor-relation-img-form-container{
+  display: flex;
+}
+.investor-relation-img{
+  padding:0 30px;
+}
+
+.investor-relation-img img{
+  width: 550px;
+  height: 233px;
+  margin-top: 30px;
+}
+
+.investor-relation-login-form{
+  padding: 0 15px;
+}
+.investor-relation-login-form h2{
+ color: #9d1f2b;
+ line-height: 100%;
+ margin: 20px 0 30px 0px;
+ text-transform: uppercase;
+ font-size: 22px;
+ font-family: 'Eurostile Extended';
+
+}
+.investor-relation-login-form label{
+ padding-bottom: 10px;
+ font-size: 16px;
+ font-weight: 300;
+ font-family: DINPro;
+
+}
+.investor-relation-login-form input{
+ width: 180%;
+ height: 39px;
+ padding: 0.5rem;
+ border: 1px solid #cacaca;
+ margin: 0 0 1rem;
+ font-family: inherit;
+ font-size: 1rem;
+ color: #0a0a0a;
+ background-color: #fefefe;
+ box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+ border-radius: 0;
+ transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+ -webkit-appearance: none;
+ font-weight: 300;
+
+}
+.investor-relation-login-form button{
+ background: #9d1f2b;
+ color: #FFFFFF;
+ padding: 8px 20px;
+ border: none;
+ font-size: 17px;
+ font-weight: 500;
+ font-family: DINPro;
+}
+
+
+
+/* End of Investor Relations*/
