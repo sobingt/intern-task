@@ -29,7 +29,7 @@
   src: url("./assets/fonts/INPro-Medium.eot#iefix") format("embedded-opentype"),
     url("./assets/fonts/DINPro-Medium.woff2") format("woff2"),
     url("../assets/fonts/DINPro-Medium.woff") format("woff"),
-    url("../assets/fonts/DINPro-Medium.ttf") format("truetype"),
+    url("../assets/fonts/DINPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -1200,3 +1200,78 @@ section.container {
 
 
 /* End of Investor Relations*/
+
+
+/* Start of Media Queries for responsiveness */
+
+@media (max-width: 991px) {
+  
+    /* Start of sector pages  */
+    .container .content-wrapper .image_conatiner {
+      padding: 0 15px;
+      text-align: center;
+      max-width: 476px;
+      margin: 0 auto;
+    }
+    .container .content-wrapper .logo-image {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .services_list_tab > ul.sector-tab > li.tab-item {
+        border-right: 0px;
+        border-bottom: 1px solid #af2330;
+        padding: 10px 20px;
+        margin-right: 0px;
+    }
+    .container .content-wrapper {
+      flex-direction: column;
+    }
+    .services_list_tab ul.sector-tab {
+      flex-direction: column;
+    }
+    .container .content-wrapper img {
+      width: 100%;
+    }
+
+    /* Start of footer section  */
+    .footer-wrapper .container {
+      max-width: 100%;
+    }
+    .footer-wrapper .footer .footer-col-3{
+      padding-top: 33px;
+    }
+    .footer-wrapper .footer .footer-col-2 {
+      border: 0;
+      border-left: 1px solid black;
+    }
+}
+
+@media (max-width: 499px) {
+    /* Start of sector pages  */
+  .container .content_container {
+    padding: 5px 0;
+  }
+  
+    /* Start of footer section  */
+  .footer-wrapper .footer .footer-btn,.col-2-btn {
+    display: block;
+    width: 100%;
+  }
+  .footer-wrapper .footer .sector-list li {
+    text-align: center;
+  }
+  .footer-wrapper .footer .footer-col-2 {
+    border: 0;
+  }
+}
+@media (max-width: 768px) {
+    .container .content_container p {
+      text-align: center;
+    }
+    .footer-wrapper .footer .address {
+      text-align: center;
+    }
+    .footer-wrapper .footer .address-header, .send-mail {
+      justify-content: center;
+    }
+}
