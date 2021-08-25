@@ -12,49 +12,49 @@
  */
 
 @font-face {
-  font-family: "DINPro";
-  src: url("/assets/fonts/DINPro-Light.eot");
-  src: url("/assets/fonts/DINPro-Light.eot#iefix") format("embedded-opentype"),
-    url("/assets/fonts/DINPro-Light.woff2") format("woff2"),
-    url("/assets/fonts/DINPro-Light.woff") format("woff"),
-    url("/assets/fonts/DINPro-Light.ttf") format("truetype");
+  font-family: 'DINPro';
+  src: url('/assets/fonts/DINPro-Light.eot');
+  src: url('/assets/fonts/DINPro-Light.eot#iefix') format('embedded-opentype'),
+    url('/assets/fonts/DINPro-Light.woff2') format('woff2'),
+    url('/assets/fonts/DINPro-Light.woff') format('woff'),
+    url('/assets/fonts/DINPro-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "DINPro";
-  src: url("/assets/fonts/DINPro-Medium.eot");
-  src: url("/assets/fonts/INPro-Medium.eot#iefix") format("embedded-opentype"),
-    url("/assets/fonts/DINPro-Medium.woff2") format("woff2"),
-    url("/assets/fonts/DINPro-Medium.woff") format("woff"),
-    url("/assets/fonts/DINPro-Medium.ttf") format("truetype"),
-    url("/assets/fonts/DINPro-Medium.svg#DINPro-Medium") format("svg");
+  font-family: 'DINPro';
+  src: url('/assets/fonts/DINPro-Medium.eot');
+  src: url('/assets/fonts/INPro-Medium.eot#iefix') format('embedded-opentype'),
+    url('/assets/fonts/DINPro-Medium.woff2') format('woff2'),
+    url('/assets/fonts/DINPro-Medium.woff') format('woff'),
+    url('/assets/fonts/DINPro-Medium.ttf') format('truetype'),
+    url('/assets/fonts/DINPro-Medium.svg#DINPro-Medium') format('svg');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "DINPro";
-  src: url("/assets/fonts/DINPro-Black.eot");
-  src: url("/assets/fonts/DINPro-Black.eot#iefix") format("embedded-opentype"),
-    url("/assets/fonts/DINPro-Black.woff2") format("woff2"),
-    url("/assets/fonts/DINPro-Black.woff") format("woff"),
-    url("/assets/fonts/DINPro-Black.ttf") format("truetype");
+  font-family: 'DINPro';
+  src: url('/assets/fonts/DINPro-Black.eot');
+  src: url('/assets/fonts/DINPro-Black.eot#iefix') format('embedded-opentype'),
+    url('/assets/fonts/DINPro-Black.woff2') format('woff2'),
+    url('/assets/fonts/DINPro-Black.woff') format('woff'),
+    url('/assets/fonts/DINPro-Black.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Eurostile Extended";
-  src: url("/assets/fonts/EurostileLTStd-BoldEx2.eot");
-  src: url("/assets/fonts/EurostileLTStd-BoldEx2.eot#iefix")
-      format("embedded-opentype"),
-    url("/assets/fonts/EurostileLTStd-BoldEx2.woff2") format("woff2"),
-    url("/assets/fonts/EurostileLTStd-BoldEx2.woff") format("woff"),
-    url("/assets/fonts/EurostileLTStd-BoldEx2.ttf") format("truetype"),
-    url("/assets/fonts/EurostileLTStd-BoldEx2.svg#EurostileLTStd-BoldEx2")
-      format("svg");
+  font-family: 'Eurostile Extended';
+  src: url('/assets/fonts/EurostileLTStd-BoldEx2.eot');
+  src: url('/assets/fonts/EurostileLTStd-BoldEx2.eot#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/EurostileLTStd-BoldEx2.woff2') format('woff2'),
+    url('/assets/fonts/EurostileLTStd-BoldEx2.woff') format('woff'),
+    url('/assets/fonts/EurostileLTStd-BoldEx2.ttf') format('truetype'),
+    url('/assets/fonts/EurostileLTStd-BoldEx2.svg#EurostileLTStd-BoldEx2')
+      format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -191,9 +191,9 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -253,12 +253,8 @@ h6,
 }
 
 p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
-  padding-bottom: 14px;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 html {
@@ -281,9 +277,9 @@ p {
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -306,17 +302,17 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   text-transform: uppercase;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #ffc800;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -325,9 +321,9 @@ p {
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
@@ -372,53 +368,6 @@ p {
     margin-right: 0;
   }
 }
-header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
-header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-style: italic;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-header.masthead .masthead-heading {
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
-  header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
-  }
-  header.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-  }
-}
 
 /*** Start of Trusted Relationship Section ***/
 .trusted-relationship-container {
@@ -436,7 +385,7 @@ header.masthead .masthead-heading {
 }
 
 .trusted-relationship h3 {
-  font-family: "Eurostile Extended";
+  font-family: 'Eurostile Extended';
   font-size: 22px;
   text-transform: uppercase;
   padding: 56px 0px 26px 0px;
@@ -466,70 +415,64 @@ header.masthead .masthead-heading {
 
 /*** Start of Footer ***/
 
-.footer-wrapper {
+.footer-wraper {
   background-color: #d9d9d9;
-  padding: 50px 0px;
+  padding: 50px 70px;
   display: flex;
-  margin-top: 50px;
+  margin: auto;
 }
 .address .address-header strong {
   font-size: 14px;
-  font-family: "DINPro";
+  font-family: 'DINPro';
   font-weight: bold;
   color: #000000;
 }
 
-.address .address-header {
+.address-header {
   display: flex;
   align-items: center;
   padding: 15px 0 5px 0;
 }
-.address .address-header span {
-  padding-right: 6px;
-}
 
-.address .address-description {
-  font-family: "DINPro";
+.address-description {
+  font-family: 'DINPro';
   font-size: 13px;
   font-weight: 300;
   color: #0a0a0a;
 }
 
-.footer .send-mail {
+.send-mail {
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 18px 0 0 0;
 }
-.footer .send-mail .mail-link a {
+
+.mail-link a {
   vertical-align: baseline;
   font-family: DINPro;
   text-decoration: underline;
   color: #000000;
-  font-size: 13px;
-  font-weight: 300;
 }
 
-.footer .send-mail .mail-link a:hover {
-  color: #af2331;
-}
-
-a:active,
-a:hover {
-  outline: 0;
-}
-.footer-col-2 {
+.col2 {
   border-left: 1px solid #000000;
   border-right: 1px solid #000000;
   padding-left: 3%;
-}
-.footer-col-2, .footer-col-3{
-  margin-top: 20px;
+  width: 33.33333%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-.footer-col-3 {
+.col1 {
+  width: 33.33333%;
+}
+.col3 {
+  width: 33.33333%;
   padding-left: 3%;
 }
+
 .footer-btn {
   font-family: DINPro;
   font-weight: 500;
@@ -579,8 +522,10 @@ ul.sector-list li img {
 
 .management-firm {
   background-color: #fff;
-  margin-top: -18rem;
+  margin-top: -20rem;
   width: 1200px;
+  position: relative;
+  z-index: 1;
 }
 
 .management-firm p {
@@ -602,9 +547,9 @@ ul.sector-list li img {
 .management-firm img {
   width: 100%;
 }
-/* End of management-firm */
+/* end of management-firm */
 
-/* Start of Ideology */
+/* ideology */
 .ideology {
   background-color: #ffffff;
   display: flex;
@@ -624,7 +569,7 @@ ul.sector-list li img {
   margin-bottom: 20px;
   font-size: 17px;
   text-transform: uppercase;
-  font-family: "Eurostile Extended";
+  font-family: 'Eurostile Extended';
 }
 .ideology-details p {
   font-family: DINPro;
@@ -633,142 +578,10 @@ ul.sector-list li img {
   line-height: 27px;
   padding-bottom: 14px;
 }
-.ideology-title {
-  color: #af2331;
-  margin-bottom: 20px;
-  font-family: "Eurostile Extended";
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-}
-/* End of Ideology */
+/* end of ideology */
 
-/* Start of Page Layout */
-section.page-content {
-  background-color: #ffffff;
-  margin-top: 50px;
-  padding: 30px 20px;
+/* Start of Homepage Slider */
+.homepage-slider {
+  height: 100vh;
 }
-
-.welcome-logo {
-  position: relative;
-  margin: 0 auto;
-  width: 400px;
-}
-.welcome-logo img {
-  width: inherit;
-}
-
-/* End of Page Layout */
-
-
-
-/* Start of Contact */
-.contact {
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
-  background: white;
-  padding-bottom: 50px;
-  padding-left: 37px;
-  padding-right: 20px;
-  padding-top: 30px;
-}
-
-.contact h2 {
-  color: #9d1f2b;
-  line-height: 100%;
-  margin: 20px 0px 10px 0px;
-  font-family: "Eurostile Extended";
-  margin-bottom: 30px;
-  font-size: 22px;
-}
-.contact-info-container {
-  width: 40%;
-}
-
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 0;
-}
-.contact-address p {
-  line-height: 20px;
-  font-weight: 500;
-  padding-bottom: 0px;
-  font-size: 14px;
-  color: #000000;
-  margin-bottom: 0;
-  font-family: DINPro;
-  margin-top: 0 !important;
-}
-.contact-img img {
-  width: 129px;
-  height: 179px;
-}
-.btn-dir {
-  font-size: 13px;
-  background: #9d1f2b;
-  color: #ffffff;
-  padding: 8px 15px;
-  margin-top: 10px;
-  font: revert;
-  vertical-align: baseline;
-  font-family: DINPro;
-  border: none;
-}
-
-.contact-btn {
-  vertical-align: baseline;
-  font-family: DINPro;
-  background: #9d1f2b;
-  color: #ffffff;
-  padding: 13px 20px;
-  display: inline-block;
-  font-size: 13px;
-  margin-top: 100px;
-  border: none;
-}
-
-.contact-container {
-  display: flex;
-  gap: 80px;
-}
-
-.contact-input label {
-  padding-bottom: 10px;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: DINPro;
-}
-
-.contact-input input {
-  width: 100%;
-  height: 21px;
-  padding: 0.5rem;
-  border: 1px solid #cacaca;
-  margin: 0 0 1rem;
-  font-family: inherit;
-  font-size: 1rem;
-  color: #0a0a0a;
-  background-color: #fefefe;
-  box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
-  border-radius: 0;
-  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
-  -webkit-appearance: none;
-  font-weight: 300;
-}
-
-.form-submit {
-  background: #9d1f2b;
-  color: #ffffff;
-  padding: 8px 20px;
-  border: none;
-  font-size: 17px;
-  font-weight: 300;
-  font-family: DINPro;
-  margin-top: 20px;
-}
-
-/* End of Contact */
+/* End of Homepage Slider */
