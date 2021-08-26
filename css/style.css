@@ -555,6 +555,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   display: inline-block;
   padding: 10px 40px;
+  cursor: pointer;
 }
 .home-title p {
   position: absolute;
@@ -569,6 +570,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #af2330;
   display: inline-block;
   padding: 10px 40px;
+  cursor: pointer;
 }
 
 /*** Start of Footer ***/
@@ -631,6 +633,12 @@ a:hover {
   padding-left: 3%;
 }
 
+.footer-img{
+  cursor: pointer;
+
+}
+
+
 .footer-col-2,
 .footer-col-3 {
   margin-top: 20px;
@@ -650,7 +658,13 @@ a:hover {
   margin-bottom: 12px;
   -webkit-transition: 0.25s ease-in-out;
   cursor: pointer;
+  font-weight: 500;
 }
+
+.trusted-relationship-img img{
+  cursor: pointer;
+}
+
 
 .footer-btn span {
   font-weight: bold;
@@ -1381,6 +1395,9 @@ section.container {
 .feature-logo{
   max-width: 100%;
     height: auto;
+}
+.feature-card{
+  cursor: pointer;
 }
 .card-container {
   width: 100%;
