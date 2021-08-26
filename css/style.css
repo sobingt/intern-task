@@ -1034,7 +1034,6 @@ section.container {
 }
 
 .leaders-col {
-  width: 20%;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
 }
@@ -1153,6 +1152,7 @@ section.container {
 }
 
 .investor-relation-login-form{
+  flex-grow: 1;
   padding: 0 15px;
 }
 .investor-relation-login-form h2{
@@ -1172,7 +1172,7 @@ section.container {
 
 }
 .investor-relation-login-form input{
- width: 180%;
+ width: 100%;
  height: 39px;
  padding: 0.5rem;
  border: 1px solid #cacaca;
@@ -1205,6 +1205,20 @@ section.container {
 /* Start of Media Queries for responsiveness */
 
 @media (max-width: 991px) {
+
+  .investor-relation-img-form-container {
+    flex-direction: column;
+  }
+  .investor-relation .investor-relation-img img {
+    width: calc(100vw - 70px);
+    height: auto;
+  }
+  .investor-relation .investor-relation-img {
+    padding: 0;
+  }
+  section.page-content .investor-relation h2{
+    text-align: center;
+  }
   
     /* Start of sector pages  */
     .container .content-wrapper .image_conatiner {
@@ -1273,6 +1287,18 @@ section.container {
   }
 }
 @media (max-width: 768px) {
+  .investor-relation .investor-relation-img img {
+    width: calc(100vw - 90px);
+    height: auto;
+  }
+  .investor-relation .investor-relation-login-form label {
+    width: 100%;
+    text-align: center;
+  }
+  .investor-relation .investor-relation-login-form > div {
+    display: flex;
+    justify-content: center;
+  }
     .about-container .about-body p {
       font-size: 12px;
       line-height: 22px;
