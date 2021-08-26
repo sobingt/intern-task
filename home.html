@@ -356,19 +356,6 @@
             }
         });
 
-        function changeBgcolor() {
-            if (window.scrollY > 80) {
-                $("#mainNav").addClass("navbar-gray");
-            } else {
-                $("#navbar").removeClass("navbar-gray");
-            }
-        }
-
-        window.addEventListener("scroll", changeBgcolor);
-
-
-
-        
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
@@ -378,7 +365,7 @@
                 if (scroll > 200) {
                     $("#navbar").css("background-color", "rgba(0,0,0,0.6)");
                 }
-                else{
+                else {
                     $("#navbar").css("background-color", "none");
                 }
             })
