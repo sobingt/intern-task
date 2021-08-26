@@ -1,298 +1,250 @@
 <html>
-  <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <link href="/css/style.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#page-top"
-          ><img src="./assets/img/navbar-logo.svg" alt="..."
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i class="fas fa-bars ms-1"></i>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="leadership-navbar navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" style="width: 75%;">
+        <img src="./assets/img/logos/logo_new_0.jpg" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-            <li id="company-dropdown-button" class="nav-item dropdown">
-              <a class="nav-link font-sm">Company</a>
-              <ul
-                id="company-sub-dropdown"
-                class="dropdown-menu text-capitalize p-0"
-              >
-                <li class="dropdown-item p-2 px-4 font-xs">Ideology</li>
-                <li class="dropdown-item p-2 px-4 font-xs">About</li>
-                <li class="dropdown-item p-2 px-4 font-xs">Leadership</li>
-              </ul>
-            </li>
-            <li id="sector-dropdown-button" class="nav-item dropdown">
-              <a class="nav-link font-sm">sector</a>
-              <ul
-                id="sector-sub-dropdown"
-                class="dropdown-menu text-capitalize p-0"
-              >
-                <li class="dropdown-item p-2 px-4 font-xs">
-                  Investment Management
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Company
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./ideology.html">Ideaology</a></li>
+                        <li><a class="dropdown-item" href="./about.html">About</a></li>
+                        <li><a class="dropdown-item" href="./leadership.html">Leadership</a></li>
+                    </ul>
                 </li>
-                <li class="dropdown-item p-2 px-4 font-xs">Asset Management</li>
-                <li class="dropdown-item p-2 px-4 font-xs">
-                  Development Management
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Sector
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./investor-relation.html">INVESTMENT MANAGEMENT</a></li>
+                        <li><a class="dropdown-item" href="#">ASSET MANAGEMENT</a></li>
+                        <li><a class="dropdown-item" href="#">DEVELOPMENT MANAGEMENT</a></li>
+                        <li><a class="dropdown-item" href="#">FOREIGN DIRECT INVESTMENTS</a></li>
+                    </ul>
                 </li>
-                <li class="dropdown-item p-2 px-4 font-xs">
-                  Foreign Direct Investments
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./relationships/investors.html">Relationship</a>
                 </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-sm">Relationships</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-sm">Investor Relations</a>
-            </li>
-            <li class="nav-item"><a class="nav-link font-sm">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-      <div class="container">
-        <div class="masthead-subheading">Welcome To Our Studio!</div>
-        <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#services"
-          >Tell Me More</a
-        >
-      </div>
-    </header>
-    <!-- Services-->
-    <section class="container page-content">
-      <!--Start of contact -->
-      <div class="contact">
-        <h2>Contact</h2>
-        <div class="row">
-          <div class="col contact-info-container">
-            <div class="contact-info">
-              <div class="contact-address">
-                <p>DUBAI</p>
-                <p>Beaufort Global Partners:</p>
-                <p>Emirates Towers, Level 41</p>
-                <p>Sheikh Zayed Road, PO 31303</p>
-                <p>Dubai, United Arab Emirates</p>
-                <p>Office: +971 4 313 2743</p>
-                <p>FAX: +971 4 313 2744</p>
-                <button class="btn-dir">Get Direction</button>
-              </div>
-              <div class="contact-img">
-                <img src="/assets/img/contact/Dubai.jpg" alt="" />
-              </div>
-            </div>
-            <div class="contact-info">
-              <div class="contact-address">
-                <p>ABU DHABI</p>
-                <p>Beaufort Global Partners:</p>
-                <p>Etihad Tower, Level 36 T3</p>
-                <p>West Corniche, Al Khubeirah</p>
-                <p>PO BOX 28686, Abu Dhabi, UAE</p>
-                <p>Office: +971 2 409 3007</p>
-                <button class="btn-dir">Get Direction</button>
-              </div>
-              <div class="contact-img">
-                <img src="/assets/img/contact/Abu-Dhabi.jpg" alt="" />
-              </div>
-            </div>
-
-            <button class="contact-btn">GET IN TOUCH</button>
-          </div>
-          <div class="col contact-form">
-            <div class="contact-input">
-              <label for="first-name">First Name </label><br />
-              <input type="text" id="first-name" />
-            </div>
-            <div class="contact-input" id="last-name">
-              <label for="last-name">Last Name </label><br />
-              <input type="text" id="last-name" />
-            </div>
-            <div class="contact-input">
-              <label for="email-address">Email Address </label><br />
-              <input type="email" id="email-address" />
-            </div>
-            <div class="contact-input">
-              <label for="company-name">Company Name </label><br />
-              <input type="text" id="company-name" />
-            </div>
-            <div class="contact-input">
-              <label for="job-title">Job Title </label><br />
-              <input type="text" id="job-title" />
-            </div>
-            <div class="contact-input">
-              <label for="message">Message </label>
-              <div class="">
-                <textarea
-                  id="edit-submitted-message"
-                  name="submitted[message]"
-                  cols="60"
-                  rows="5"
-                  class="form-textarea"
-                ></textarea>
-              </div>
-            </div>
-            <div>
-              <input
-                type="submit"
-                id="edit-submit"
-                name="op"
-                value="Submit"
-                class="form-submit"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--End of contact -->
-    </section>
-
-    <!-- Footer-->
-    <footer class="container-fluid">
-      <div class="container">
-        <div class="footer-wrapper row">
-          <div class="col footer-col-1">
-            <div class="address">
-              <div class="address-header">
-                <span><img src="/assets/img/footer/foot_ic.png" /></span>
-                <strong>DUBAI</strong>
-              </div>
-              <span class="address-description">
-                Beaufort Global Partners: <br />
-                Emirates Towers, Level 41<br />
-                Sheikh Zayed Road, PO 31303 <br />
-                Dubai, United Arab Emirates <br />
-                Office: +971 4 313 2743<br />
-                FAX: +971 4 313 2744<br />
-              </span>
-            </div>
-            <div class="address">
-              <div class="address-header">
-                <span><img src="/assets/img/footer/foot_ic.png" /></span>
-                <strong>DUBAI</strong>
-              </div>
-              <span class="address-description">
-                Beaufort Global Partners: <br />
-                Emirates Towers, Level 41<br />
-                Sheikh Zayed Road, PO 31303 <br />
-                Dubai, United Arab Emirates <br />
-                Office: +971 4 313 2743<br />
-                FAX: +971 4 313 2744<br />
-              </span>
-            </div>
-            <div class="send-mail">
-              <span class="material-icons"> email </span>
-              <span class="mail-link">
-                <a href="#">Get in touch</a>
-              </span>
-            </div>
-          </div>
-          <div class="col footer-col-2">
-            <div class="col-2-btn">
-              <div class="footer-btn">Sectors</div>
-            </div>
-            <ul class="sector-list">
-              <li>
-                <img
-                  src="/assets/img/footer/BGP-02-redbg.jpg"
-                  alt="not found"
-                />
-              </li>
-              <li>
-                <img
-                  src="/assets/img/footer/BGP-02-redbg.jpg"
-                  alt="not found"
-                />
-              </li>
-              <li>
-                <img
-                  src="/assets/img/footer/BGP-02-redbg.jpg"
-                  alt="not found"
-                />
-              </li>
-              <li>
-                <img
-                  src="/assets/img/footer/BGP-02-redbg.jpg"
-                  alt="not found"
-                />
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./investor-relation.html">Investors Relation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+                </li>
             </ul>
+        </div>
+    </div>
+</nav>
+  <!-- Masthead-->
+  <!-- <header class="masthead">
+    <div class="container">
+      <div class="masthead-subheading">Welcome To Our Studio!</div>
+      <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+      <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+    </div>
+  </header> -->
+  <!-- Services-->
+  <section class="container page-content">
+    <!--Start of contact -->
+    <div class="contact">
+      <h2>Contact</h2>
+      <div class="row">
+        <div class="col contact-info-container">
+          <div class="contact-info">
+            <div class="contact-address">
+              <p>DUBAI</p>
+              <p>Beaufort Global Partners:</p>
+              <p>Emirates Towers, Level 41</p>
+              <p>Sheikh Zayed Road, PO 31303</p>
+              <p>Dubai, United Arab Emirates</p>
+              <p>Office: +971 4 313 2743</p>
+              <p>FAX: +971 4 313 2744</p>
+              <button class="btn-dir">Get Direction</button>
+            </div>
+            <div class="contact-img">
+              <img src="/assets/img/contact/Dubai.jpg" alt="" />
+            </div>
           </div>
-          <div class="col footer-col-3">
-            <div class="footer-btn">Company</div>
-            <div class="footer-btn">Relationships</div>
-            <div class="footer-btn">Investor Relations</div>
+          <div class="contact-info">
+            <div class="contact-address">
+              <p>ABU DHABI</p>
+              <p>Beaufort Global Partners:</p>
+              <p>Etihad Tower, Level 36 T3</p>
+              <p>West Corniche, Al Khubeirah</p>
+              <p>PO BOX 28686, Abu Dhabi, UAE</p>
+              <p>Office: +971 2 409 3007</p>
+              <button class="btn-dir">Get Direction</button>
+            </div>
+            <div class="contact-img">
+              <img src="/assets/img/contact/Abu-Dhabi.jpg" alt="" />
+            </div>
+          </div>
+
+          <button class="contact-btn">GET IN TOUCH</button>
+        </div>
+        <div class="col contact-form">
+          <div class="contact-input">
+            <label for="first-name">First Name </label><br />
+            <input type="text" id="first-name" />
+          </div>
+          <div class="contact-input" id="last-name">
+            <label for="last-name">Last Name </label><br />
+            <input type="text" id="last-name" />
+          </div>
+          <div class="contact-input">
+            <label for="email-address">Email Address </label><br />
+            <input type="email" id="email-address" />
+          </div>
+          <div class="contact-input">
+            <label for="company-name">Company Name </label><br />
+            <input type="text" id="company-name" />
+          </div>
+          <div class="contact-input">
+            <label for="job-title">Job Title </label><br />
+            <input type="text" id="job-title" />
+          </div>
+          <div class="contact-input">
+            <label for="message">Message </label>
+            <div class="">
+              <textarea id="edit-submitted-message" name="submitted[message]" cols="60" rows="5"
+                class="form-textarea"></textarea>
+            </div>
+          </div>
+          <div>
+            <input type="submit" id="edit-submit" name="op" value="Submit" class="form-submit" />
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Bootstrap core JavaScript
+    </div>
+    <!--End of contact -->
+  </section>
+
+  <!-- Footer-->
+  <footer class="footer-wrapper container-fluid">
+    <div class="container footer">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+            <div class="col footer-col-1">
+                <div class="address">
+                    <div class="address-header">
+                        <span><img src="/assets/img/footer/foot_ic.png" /></span>
+                        <strong>DUBAI</strong>
+                    </div>
+                    <span class="address-description">
+                        Beaufort Global Partners: <br />
+                        Emirates Towers, Level 41<br />
+                        Sheikh Zayed Road, PO 31303 <br />
+                        Dubai, United Arab Emirates <br />
+                        Office: +971 4 313 2743<br />
+                        FAX: +971 4 313 2744<br />
+                    </span>
+                </div>
+                <div class="address">
+                    <div class="address-header">
+                        <span><img src="/assets/img/footer/foot_ic.png" /></span>
+                        <strong>DUBAI</strong>
+                    </div>
+                    <span class="address-description">
+                        Beaufort Global Partners: <br />
+                        Emirates Towers, Level 41<br />
+                        Sheikh Zayed Road, PO 31303 <br />
+                        Dubai, United Arab Emirates <br />
+                        Office: +971 4 313 2743<br />
+                        FAX: +971 4 313 2744<br />
+                    </span>
+                </div>
+                <div class="send-mail">
+                    <span><img src="/assets/img/footer/foot_ic3.png" /></span>
+                    <span class="mail-link">
+                        <a href="#">Get in touch</a>
+                    </span>
+                </div>
+            </div>
+            <div class="col footer-col-2">
+                <div class="col-2-btn">
+                    <div class="footer-btn">Sectors</div>
+                </div>
+                <ul class="sector-list">
+                    <li>
+                        <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
+                    </li>
+                    <li>
+                        <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
+                    </li>
+                    <li>
+                        <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
+                    </li>
+                    <li>
+                        <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
+                    </li>
+                </ul>
+            </div>
+            <div class="col footer-col-3">
+                <div class="footer-btn">Company</div>
+                <div class="footer-btn">Relationships</div>
+                <div class="footer-btn">Investor Relations</div>
+            </div>
+        </div>
+    </div>
+</footer>
+  <!-- Bootstrap core JavaScript
         ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      window.jQuery ||
-        document.write(
-          '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
-        )
-    </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $('.dropdown').hover(function () {
-        const dropdownMenu = $(this).children('.dropdown-menu')
-        if (!dropdownMenu.is(':visible')) {
-          dropdownMenu.toggleClass('d-block')
-        } else {
-          dropdownMenu.toggleClass('d-block')
-        }
-      })
-
-      function changeBgcolor() {
-        if (window.scrollY > 80) {
-          $('#mainNav').addClass('navbar-gray')
-        } else {
-          $('#navbar').removeClass('navbar-gray')
-        }
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery ||
+      document.write(
+        '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+      )
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+  <script>
+    $('.dropdown').hover(function () {
+      const dropdownMenu = $(this).children('.dropdown-menu')
+      if (!dropdownMenu.is(':visible')) {
+        dropdownMenu.toggleClass('d-block')
+      } else {
+        dropdownMenu.toggleClass('d-block')
       }
+    })
 
-      window.addEventListener('scroll', changeBgcolor)
-    </script>
-  </body>
+    function changeBgcolor() {
+      if (window.scrollY > 80) {
+        $('#mainNav').addClass('navbar-gray')
+      } else {
+        $('#navbar').removeClass('navbar-gray')
+      }
+    }
+
+    window.addEventListener('scroll', changeBgcolor)
+  </script>
+</body>
+
 </html>
