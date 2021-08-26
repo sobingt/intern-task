@@ -5,53 +5,59 @@
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
     <link href="/css/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    
+
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="/assets/img/navbar-logo.svg" alt="..." /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ms-1"></i>
+    <nav id="navbar" style="margin-bottom: -100px; background-color: transparent!important;"
+        class="leadership-navbar navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid" style="width: 75%;">
+            <img src="./assets/img/logos/logo_new_0.jpg" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li id="company-dropdown-button" class="nav-item dropdown">
-                        <a class="nav-link font-sm" href="#">Company</a>
-                        <ul id="company-sub-dropdown" class="dropdown-menu text-capitalize p-0 nav-links">
-                            <li class="dropdown-item p-2 px-4 font-xs"><a href="ideology.html">Ideology</a> </li>
-                            <li class="dropdown-item p-2 px-4 font-xs"><a href="about.html">About</a></li>
-                            <li class="dropdown-item p-2 px-4 font-xs"><a href="leadership.html">Leadership</a></li>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./ideology.html">Ideaology</a></li>
+                            <li><a class="dropdown-item" href="./about.html">About</a></li>
+                            <li><a class="dropdown-item" href="./leadership.html">Leadership</a></li>
                         </ul>
                     </li>
-                    <li id="sector-dropdown-button" class="nav-item dropdown">
-                        <a class="nav-link font-sm" href="#">sector</a>
-                        <ul id="sector-sub-dropdown" class="dropdown-menu text-capitalize p-0 nav-links">
-                            <li class="dropdown-item p-2 px-4 font-xs">
-                                <a href="/sectors/investor_management.html"> Investment Management</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sector
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./sectors/investor_management.html">INVESTMENT
+                                    MANAGEMENT</a></li>
+                            <li><a class="dropdown-item" href="./sectors/asset_management.html">ASSET MANAGEMENT</a>
                             </li>
-                            <li class="dropdown-item p-2 px-4 font-xs">
-                                <a href="/sectors/asset_management.html">Asset Management</a>
-                            </li>
-                            <li class="dropdown-item p-2 px-4 font-xs">
-                                <a href="/sectors/development_management.html"> Development Management</a>
-                            </li>
-                            <li class="dropdown-item p-2 px-4 font-xs">
-                                <a href="/sectors/fdi.html"> Foreign Direct Investments</a>
-                            </li>
+                            <li><a class="dropdown-item" href="./sectors/development_management.html">DEVELOPMENT
+                                    MANAGEMENT</a></li>
+                            <li><a class="dropdown-item" href="./sectors/fdi.html">FOREIGN DIRECT INVESTMENTS</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font-sm" href="#">Relationships</a>
+                        <a class="nav-link active" aria-current="page"
+                            href="./relationships/investors.html">Relationship</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font-sm" href="investor-relation.html">Investor Relations</a>
+                        <a class="nav-link active" aria-current="page" href="./investor-relation.html">Investors
+                            Relation</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link font-sm" href="contact.html">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -131,99 +137,101 @@
 
     <!-- feature section start -->
     <div class="home-wrapper">
-    <div style="max-width: 1228px;" class="container d-flex justify-content-center align-items-center">
-        <div  class="card-container row">
-            <div style="padding-left: 37px;" class="card col border-0 align-items-stretch">
-                <img src="assets\img\features\international-trading-company.jpg" class="card-img-top"
-                    alt="./assets/img/portfolio/2.jpg">
-                <div class="card-body p-0  pt-3 pb-3">
-                    <img class="feature-logo" src="assets\img\features\inverstment_img.jpg" alt="">
-                    <div class="card-description d-flex flex-column justify-content-between">
-                        <div class="">
-                            <p class="card-text text-center">Beaufort Trade Investments focus is on bridging and
-                                supporting
-                                relationships of Foreign Direct Investment (FDI) for
-                                governments, institutions, companies or individuals of one country and their business &
-                                commercial interests in another
-                                country.</p>
-                        </div>
-                        <div class="d-grid">
-                            <button  typee="button" class="btn btn-danger text-uppercase mt-3"
-                                style="font-size: 0.8rem; padding: 12px 0;">Read more</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col border-0 align-items-stretch">
-                <img src="assets\img\features\investment-services.jpg" class="card-img-top"
-                    alt="./assets/img/portfolio/2.jpg">
-                <div class="card-body p-0  pt-3 pb-3">
-                    <img class="feature-logo" src="assets\img\features\inverstment_img.jpg" alt="">
-                    <div class="card-description d-flex flex-column justify-content-between">
-                        <div class="">
-                            <p class="card-text text-center">Beaufort Investments focus on asset optimization
-                                offers our
-                                investor
-                                clients a 360° approach to manage their
-                                investments, finances and wealth for tailor-made solutions to support and realize their
-                                business strategy.</p>
-                        </div>
-                        <div class="d-grid">
-                            <button typee="button" class="btn btn-danger text-uppercase mt-3"
-                                style="font-size: 0.8rem; padding: 12px 0;">Read more</button>
+        <div style="max-width: 1228px;" class="container d-flex justify-content-center align-items-center">
+            <div class="card-container row">
+                <div style="padding-left: 37px;" class="card col border-0 align-items-stretch">
+                    <img src="assets\img\features\international-trading-company.jpg" class="card-img-top"
+                        alt="./assets/img/portfolio/2.jpg">
+                    <div class="card-body p-0  pt-3 pb-3">
+                        <img class="feature-logo" src="assets\img\features\inverstment_img.jpg" alt="">
+                        <div class="card-description d-flex flex-column justify-content-between">
+                            <div class="">
+                                <p class="card-text text-center">Beaufort Trade Investments focus is on bridging and
+                                    supporting
+                                    relationships of Foreign Direct Investment (FDI) for
+                                    governments, institutions, companies or individuals of one country and their
+                                    business &
+                                    commercial interests in another
+                                    country.</p>
+                            </div>
+                            <div class="d-grid">
+                                <button typee="button" class="btn btn-danger text-uppercase mt-3"
+                                    style="font-size: 0.8rem; padding: 12px 0;">Read more</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card col border-0 align-items-stretch">
-                <img src="assets\img\features\real estate investment companies.jpg" class="card-img-top"
-                    alt="./assets/img/portfolio/2.jpg">
-                <div class="card-body p-0  pt-3 pb-3">
-                    <img class="feature-logo" src="assets\img\features\inverstment_img.jpg" alt="">
-                    <div class="card-description d-flex flex-column justify-content-between">
-                        <div class="">
-                            <p class="card-text text-center">Our foundation is in our fiduciary duties to represent
-                                ownership’s
-                                best
-                                interest, drive value and investment returns of
-                                a single asset or asset portfolio to increase owner’s equity and value.</p>
-                        </div>
-                        <div class="d-grid">
-                            <button typee="button" class="btn btn-danger text-uppercase mt-3"
-                                style="font-size: 0.8rem; padding: 12px 0;">Read more</button>
+                <div class="card col border-0 align-items-stretch">
+                    <img src="assets\img\features\investment-services.jpg" class="card-img-top"
+                        alt="./assets/img/portfolio/2.jpg">
+                    <div class="card-body p-0  pt-3 pb-3">
+                        <img class="feature-logo" src="assets\img\features\inverstment_img.jpg" alt="">
+                        <div class="card-description d-flex flex-column justify-content-between">
+                            <div class="">
+                                <p class="card-text text-center">Beaufort Investments focus on asset optimization
+                                    offers our
+                                    investor
+                                    clients a 360° approach to manage their
+                                    investments, finances and wealth for tailor-made solutions to support and realize
+                                    their
+                                    business strategy.</p>
+                            </div>
+                            <div class="d-grid">
+                                <button typee="button" class="btn btn-danger text-uppercase mt-3"
+                                    style="font-size: 0.8rem; padding: 12px 0;">Read more</button>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="card col border-0 align-items-stretch">
+                    <img src="assets\img\features\real estate investment companies.jpg" class="card-img-top"
+                        alt="./assets/img/portfolio/2.jpg">
+                    <div class="card-body p-0  pt-3 pb-3">
+                        <img class="feature-logo" src="assets\img\features\inverstment_img.jpg" alt="">
+                        <div class="card-description d-flex flex-column justify-content-between">
+                            <div class="">
+                                <p class="card-text text-center">Our foundation is in our fiduciary duties to represent
+                                    ownership’s
+                                    best
+                                    interest, drive value and investment returns of
+                                    a single asset or asset portfolio to increase owner’s equity and value.</p>
+                            </div>
+                            <div class="d-grid">
+                                <button typee="button" class="btn btn-danger text-uppercase mt-3"
+                                    style="font-size: 0.8rem; padding: 12px 0;">Read more</button>
+                            </div>
+                        </div>
 
-                </div>
-            </div>
-            <div style="padding-right: 44px;" class="card col border-0 align-items-stretch">
-                <img src="assets\img\features\asset management firms.jpg" class="card-img-top" alt="...">
-                <div class="card-body p-0 pt-3 pb-3">
-                    <img class="feature-logo" src="assets\img\features\inverstment_img.jpg" alt="">
-                    <div class="card-description d-flex flex-column justify-content-between">
-                        <div class="">
-                            <p class="card-text text-center">At Beaufort Development we are driven to deliver
-                                outstanding
-                                quality to
-                                our
-                                valued clients and partners. Beaufort
-                                Development capabilities cover the full life cycle of development utilizing the
-                                collective
-                                knowledge and various
-                                resources of our seasoned senior executive leadership.</p>
-                        </div>
-                        <div class="d-grid">
-                            <button typee="button" class="btn btn-danger text-uppercase mt-3"
-                                style="font-size: 0.8rem; padding: 12px 0;">Read
-                                more</button>
-                        </div>
                     </div>
+                </div>
+                <div style="padding-right: 44px;" class="card col border-0 align-items-stretch">
+                    <img src="assets\img\features\asset management firms.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pt-3 pb-3">
+                        <img class="feature-logo" src="assets\img\features\inverstment_img.jpg" alt="">
+                        <div class="card-description d-flex flex-column justify-content-between">
+                            <div class="">
+                                <p class="card-text text-center">At Beaufort Development we are driven to deliver
+                                    outstanding
+                                    quality to
+                                    our
+                                    valued clients and partners. Beaufort
+                                    Development capabilities cover the full life cycle of development utilizing the
+                                    collective
+                                    knowledge and various
+                                    resources of our seasoned senior executive leadership.</p>
+                            </div>
+                            <div class="d-grid">
+                                <button typee="button" class="btn btn-danger text-uppercase mt-3"
+                                    style="font-size: 0.8rem; padding: 12px 0;">Read
+                                    more</button>
+                            </div>
+                        </div>
 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
@@ -348,15 +356,20 @@
             }
         });
 
-        function changeBgcolor() {
-            if (window.scrollY > 80) {
-                $("#mainNav").addClass("navbar-gray");
-            } else {
-                $("#navbar").removeClass("navbar-gray");
-            }
-        }
-
-        window.addEventListener("scroll", changeBgcolor);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 200) {
+                    $("#navbar").css("background-color", "rgba(0,0,0,0.6)");
+                }
+                else {
+                    $("#navbar").css("background-color", "none");
+                }
+            })
+        })
     </script>
 </body>
 
