@@ -651,7 +651,11 @@ ul.sector-list li img {
   background-color: #fff;
   margin-top: -18rem;
   width: 1200px;
+  z-index: 99;
+  position: relative;
+  
 }
+
 
 .management-firm p {
   font-family: DINPro;
@@ -1029,3 +1033,36 @@ section.page-content {
 }
 
 /*End of Leadership*/
+
+
+
+/* start of feature */
+
+.container  {
+  height: 100%;
+}
+.card-container {
+  width: 100%;
+}
+.card-description {
+  min-height: 284px;
+}
+.card-container p {
+  font-family: DINPro;
+    font-weight: 300;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    padding-bottom: 14px;
+    min-height: 284px;
+}
+
+.feature-logo{
+  max-width: 100%;
+  
+}
+
+.home-wrapper{
+  
+  
+}
