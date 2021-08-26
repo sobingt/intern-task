@@ -536,6 +536,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.home-content{
+  padding-bottom: 0px !important;
+}
+
 .home-title h1 {
   position: absolute;
   top: 280px;
@@ -884,6 +888,13 @@ section.container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.services-wrapper{
+  width: 1204px;
+  
+  z-index: 999;
+  background-color: white;
+  margin: 0 auto !important;
 }
 .services_list_tab > ul.sector-tab > li.tab-item {
   font-family: 'DINPro';
@@ -1351,4 +1362,37 @@ section.container {
     text-align: center;
   }
 
+}
+
+ /* feature section */
+
+.feature-logo{
+  max-width: 100%;
+    height: auto;
+}
+.card-container {
+  width: 100%;
+}
+.card-description {
+  min-height: 284px;
+}
+.card-container p {
+  font-family: DINPro;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    padding-bottom: 14px;
+    min-height: 284px;
+}
+.feature-btn{
+  background-color: #af2331;
+    padding: 12px 0px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: DINPro;
+    font-size: 12px;
+    text-transform: uppercase;
 }
