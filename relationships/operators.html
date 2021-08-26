@@ -3,7 +3,7 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
-    <link href="/css/style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
 
@@ -11,7 +11,7 @@
     <!-- Navigation-->
     <nav id="mainNav" class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="./assets/img/navbar-logo.svg" alt="..." /></a>
+            <a class="navbar-brand" href="#page-top"><img src="../assets/img/navbar-logo.svg" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -54,31 +54,97 @@
         </div>
     </nav>
     <!-- End Navigation-->
-    
-    <!-- About -->
-    <div class="about-container">
-        <div class="about-body">
-            <h2 class="red-title">ABOUT</h2>
-            <p class="about-paragraph">
-                <span class="red-color">
-                    BEAUFORT GLOBAL PARTNERS
-                </span> is a leading investment, development and asset management firm, with focus in hospitality real estate for hotels, resorts, commercial, residential, infrastructure, master development, mixed-use and governmental
-                initiatives. Founded in Dubai, UAE it has over the many years established relationships of trust at the highest levels of government as well as private and public sector enterprise for the execution of global mandates on results-oriented
-                delivery.
+
+    <!-- Investors -->
+    <div class="investors-holder">
+        <div class="investors-container">
+            <h2 class="investors-title">
+                TRUSTED RELATIONSHIPS
+            </h2>
+            <p>
+                At BEAUFORT, we take great pride in nurturing trusted long term relationships and creating new ones with
+                our clients and partners whether it be government agencies, investors, developers, institutions or
+                operators. Our professional associations, connections and networks reflect our core values and
+                commitment to excellence.
             </p>
-            <hr>
-            <div class="about-mid-col">
-                <h2 class="red-title">VISION</h2>
-                <p class="about-black">TO DELIVER CLEAR AND IMMEDIATE EXPERT KNOWLEDGE TO INCREASE OWNER'S EQUITY</p>
+            <div class="buttons-group">
+                <a href="investors.html" class="button-red">
+                    INVESTORS
+                </a>
+                <a href="government.html" class="button-red">
+                    GOVERNMENT
+                </a>
+                <a href="institution.html" class="button-red">
+                    INSTITUTIONS
+                </a>
+                <a href="developers.html" class="button-red">
+                    DEVELOPERS
+                </a>
+                <a href="operators.html" class="button-red active-button">
+                    OPERATORS
+                </a>
             </div>
-            <div class="about-mid-col">
-                <h2 class="red-title">MISSION</h2>
-                <p class="about-black">TO PROVIDE CONSISTENT & SUSTAINABLE, PROFESSIONAL INTERNATIONAL EXPERTISE AND DELIVERABLES
-                </p>
-                <p class="about-small-gray">
-                    BY MEANS OF
-                </p>
-                <p class="about-black">TRUST <span class="red-color">•</span> DISCRETION <span class="red-color">•</span> INTEGRITY <span class="red-color">•</span> TRANSPARENCY <span class="red-color">•</span> TRUE VALUE</p>
+            <h3 class="relationship-title-selected">
+                OPERATORS
+            </h3>
+            <div class="row">
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Four-Seasons.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Hilton.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Intercontinental.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Jin-Jiang.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Jumeirah-Group (1).jpg" alt="">
+                </div>
+            </div><div class="row">
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Mandarin-Oriental.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Marriott.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Melia.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Movenpick.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Peninsula-Hotels (1).jpg" alt="">
+                </div>
+            </div><div class="row">
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Regent.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Rezidor.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Rosewood.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/abudhabi.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Soneva.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="../assets/img/leader-badges/starwood.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/img/leader-badges/Wanda.png" alt="">
+                </div><div class="col">
+                    <img src="../assets/img/leader-badges/Wyndham.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -149,9 +215,46 @@
                 </div>
             </div>
         </div>
-       
+
     </footer>
-    
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery ||
+            document.write(
+                '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+            );
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+    <script>
+        $(".dropdown").hover(function () {
+            const dropdownMenu = $(this).children(".dropdown-menu");
+            if (!dropdownMenu.is(":visible")) {
+                dropdownMenu.toggleClass("d-block");
+            } else {
+                dropdownMenu.toggleClass("d-block");
+            }
+        });
+
+        function changeBgcolor() {
+            if (window.scrollY > 80) {
+                $("#mainNav").addClass("navbar-gray");
+            } else {
+                $("#navbar").removeClass("navbar-gray");
+            }
+        }
+
+        window.addEventListener("scroll", changeBgcolor);
+    </script>
 </body>
 
 </html>

@@ -29,25 +29,22 @@
   src: url("./assets/fonts/INPro-Medium.eot#iefix") format("embedded-opentype"),
     url("./assets/fonts/DINPro-Medium.woff2") format("woff2"),
     url("../assets/fonts/DINPro-Medium.woff") format("woff"),
-    url("../assets/fonts/DINPro-Medium.ttf") format("truetype"),
+    url("../assets/fonts/DINPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-
   font-family: "DINPro";
   src: url("/assets/fonts/DINPro-Black.eot");
   src: url("/assets/fonts/DINPro-Black.eot#iefix") format("embedded-opentype"),
     url("/assets/fonts/DINPro-Black.woff2") format("woff2"),
     url("/assets/fonts/DINPro-Black.woff") format("woff"),
     url("/assets/fonts/DINPro-Black.ttf") format("truetype");
-
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-
   font-family: "Eurostile Extended";
   src: url("/assets/fonts/EurostileLTStd-BoldEx2.eot");
   src: url("/assets/fonts/EurostileLTStd-BoldEx2.eot#iefix")
@@ -57,7 +54,6 @@
     url("/assets/fonts/EurostileLTStd-BoldEx2.ttf") format("truetype"),
     url("/assets/fonts/EurostileLTStd-BoldEx2.svg#EurostileLTStd-BoldEx2")
       format("svg");
-
   font-weight: bold;
   font-style: normal;
 }
@@ -355,7 +351,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: rgb(0,0,0,0.6);
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -483,7 +479,6 @@ header.masthead .masthead-heading {
 }
 
 /*** End of Trusted Relationship Section ***/
-
 /* Start of Home section */
 
 .home {
@@ -521,8 +516,6 @@ header.masthead .masthead-heading {
   display: inline-block;
   padding: 10px 40px;
 }
-
-/* Start of Home section */
 
 /*** Start of Footer ***/
 
@@ -938,18 +931,20 @@ section.container {
 
 /*** End of Navbar ***/
 
-
 /* Start of About */
 
 .about-container,
-.leadership-container {
+.leadership-container,
+.investors-holder {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
 
-.about-body {
+
+.about-body,
+.investors-container {
   margin-top: 50px;
   padding: 45px 50px;
   background-color: #fff;
@@ -957,7 +952,8 @@ section.container {
   max-width: 75rem;
 }
 
-.red-title {
+.red-title,
+.investors-title {
   font-size: 22px;
   color: #9d1f2b;
   line-height: 100%;
@@ -1008,6 +1004,37 @@ section.container {
 /* End of About */
 
 /*Start of Leadership*/
+
+.leadership-navbar {
+  height: 100px;
+  background-color: rgba(0,0,0,0.6)!important;
+  text-transform: uppercase;
+  font-family: DINPro;
+  font-size: 14px;
+}.leadership-navbar img {
+  max-width: 231px;
+}.leadership-navbar .nav-link,.leadership-navbar .dropdown-item {
+  color: #fff !important;
+}.leadership-navbar .dropdown-item {
+  background: rgba(0,0,0,0.8)!important;
+}.leadership-navbar .dropdown-menu {
+  padding: 0px !important;
+  margin: 0px !important;
+}.leadership-navbar .nav-link,.leadership-navbar .dropdown-item{
+  padding: 15px 20px 15px 20px !important;
+}.leadership-navbar .dropdown-menu {
+  border: none !important;
+}.leadership-navbar .navbar-nav {
+  width: 100%;
+}
+.leadership-navbar .nav-link:hover {
+  color: #000000 !important;
+    background-color: #9d1f2b;
+}.leadership-navbar .dropdown-item:hover {
+  color: #000000 !important;
+  background-color: #9d1f2b !important;
+}
+
 .leadership-center,
 .leader-container {
   display: flex;
@@ -1024,7 +1051,9 @@ section.container {
   max-width: 75rem;
 }
 
-.leadership-container h2 {
+
+.leadership-container h2,
+.investors-title {
   text-align: left;
   width: 100%;
 }
@@ -1098,7 +1127,9 @@ section.container {
 .next-page {
   text-align: end;
 }
-.next-page-link {
+
+.next-page-link,
+.buttons-group a {
   background: #9d1f2b;
   padding: 10px 20px;
   height: 36px;
@@ -1113,12 +1144,59 @@ section.container {
 
 /*End of Leadership*/
 
+/* Start of Relationships */
+.buttons-group {
+    font-family: "Eurostile Extended";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+}
+.buttons-group a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    background: #9d1f2b;
+    width: 200px;
+    margin-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 56px;
+}
+.active-button{
+    background: #65141c;
+    background-color: #65141c !important;
+}
+.relationship-title-selected {
+    font-family: 'Eurostile Extended';
+    color: #000000;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 56px 0px 26px 0px;
+    clear: both;
+}
+.investors-container .row .col img {
+    width: 160px;
+}
+.investors-container .row .col {
+    text-align: center;
+    border-right: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    min-height: 165px;
+    padding: 10px 0px;
+    width: 100%;
+    float: left;
+    list-style: none;
+    max-width: 14vw;
+}
+
+/*End of Leadership*/
+
 
  /* Start Investor Relations*/
- .investor-relation{
-   
-
-}
 .investor-relation h2{
  color: #9d1f2b;
  line-height: 100%;
