@@ -190,9 +190,9 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -285,9 +285,9 @@ p {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -302,6 +302,13 @@ p {
   border-radius: 100%;
 }
 
+/* Start of Navbar */
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+}
+/* End of Navbar */
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -311,18 +318,18 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   text-transform: uppercase;
   font-weight: 700;
 }
 
 #mainNav .navbar-brand {
   color: #ffc800;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -333,9 +340,9 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
@@ -387,7 +394,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url('../assets/img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -399,9 +406,9 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 header.masthead .masthead-heading {
@@ -409,9 +416,9 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 @media (min-width: 768px) {
@@ -433,6 +440,59 @@ header.masthead .masthead-heading {
   }
 }
 
+/* Global Declaration */
+
+p, span, a {
+  font-family: 'DINPro';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  color: #000;
+  padding-bottom: 14px;
+}
+span {
+  line-height: normal;
+}
+a{
+  color: #af2330;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover {
+  color: #9d1f2b;
+}
+label {
+  font-size: 14px;
+  font-family: 'DINPro';
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+input {
+  padding: 0.5rem;
+  font-size: 14px;
+  font-family: 'DINPro';
+  border: 1px solid #cacaca;
+  font-weight: 300;
+}
+input[type="submit"], button {
+  background: #af2330;
+  color: white;
+  font-family: 'DINPro';
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Eurostile Extended";
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #9d1f2b;
+}
+
 /*** Start of Trusted Relationship Section ***/
 
 .trusted-relationship-container {
@@ -451,21 +511,12 @@ header.masthead .masthead-heading {
 }
 
 .trusted-relationship h3 {
-  font-family: "Eurostile Extended";
   font-size: 22px;
-  text-transform: uppercase;
   padding: 56px 0px 26px 0px;
-  color: #af2331;
 }
 
 .trusted-relationship p {
-  font-size: 16px;
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
   font-size: 18px;
-  line-height: 27px;
-  padding-bottom: 14px;
 }
 
 .trusted-relationship-img {
@@ -491,10 +542,7 @@ header.masthead .masthead-heading {
   left: 215px;
   opacity: 1;
   margin-left: 15px;
-  font-family: "Eurostile Extended";
   font-size: 14px;
-  font-family: DINPro;
-  text-transform: uppercase;
   background-color: #af2330;
   color: white;
   display: inline-block;
@@ -506,8 +554,6 @@ header.masthead .masthead-heading {
   left: 215px;
   opacity: 1;
   margin-left: 0px;
-  font-family: "Eurostile Extended";
-  font-size: 14px;
   font-family: DINPro;
   font-weight: 500;
   text-transform: uppercase;
@@ -518,7 +564,9 @@ header.masthead .masthead-heading {
 }
 
 /*** Start of Footer ***/
-
+footer.container-fluid {
+  background-color: #d9d9d9;
+}
 .footer-wrapper {
   background-color: #d9d9d9;
   padding: 50px 0px;
@@ -528,7 +576,7 @@ header.masthead .masthead-heading {
 
 .address .address-header strong {
   font-size: 14px;
-  font-family: "DINPro";
+  font-family: 'DINPro';
   font-weight: bold;
   color: #000000;
 }
@@ -544,10 +592,7 @@ header.masthead .masthead-heading {
 }
 
 .address .address-description {
-  font-family: "DINPro";
   font-size: 13px;
-  font-weight: 300;
-  color: #0a0a0a;
 }
 
 .footer .send-mail {
@@ -559,11 +604,8 @@ header.masthead .masthead-heading {
 
 .footer .send-mail .mail-link a {
   vertical-align: baseline;
-  font-family: DINPro;
   text-decoration: underline;
-  color: #000000;
   font-size: 13px;
-  font-weight: 300;
 }
 
 .footer .send-mail .mail-link a:hover {
@@ -591,11 +633,9 @@ a:hover {
 }
 
 .footer-btn {
-  font-family: DINPro;
-  font-weight: 500;
+  text-transform: uppercase;
   color: #000000;
   font-size: 18px;
-  text-transform: uppercase;
   background-color: #c3c3c3;
   display: table;
   padding: 8px 12px;
@@ -616,6 +656,14 @@ a:hover {
 
 .col-2-btn {
   width: 100px;
+}
+.footer .send-mail a {
+  font-size: 13px;
+  color: black;
+  text-transform: capitalize;
+}
+.footer .send-mail a:hover {
+  color: #af2331;
 }
 
 .col2 img {
@@ -645,20 +693,11 @@ ul.sector-list li img {
   background-color: #fff;
   margin-top: -18rem;
   width: 1200px;
-}
-
-.management-firm p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
-  padding-bottom: 14px;
+  position: relative;
+  z-index: 1;
 }
 
 .management-firm p span {
-  color: #af2330;
-  font-family: DINPro;
   font-size: 15px;
 }
 
@@ -689,28 +728,14 @@ ul.sector-list li img {
 }
 
 .ideology h3 {
-  color: #af2331;
   margin-bottom: 20px;
   font-size: 17px;
-  text-transform: uppercase;
-  font-family: "Eurostile Extended";
-}
-
-.ideology-details p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  line-height: 27px;
-  padding-bottom: 14px;
 }
 
 .ideology-title {
-  color: #af2331;
   margin-bottom: 20px;
-  font-family: "Eurostile Extended";
   font-size: 16px;
   font-weight: 400;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -750,10 +775,7 @@ section.page-content {
 }
 
 .contact h2 {
-  color: #9d1f2b;
-  line-height: 100%;
   margin: 20px 0px 10px 0px;
-  font-family: "Eurostile Extended";
   margin-bottom: 30px;
   font-size: 22px;
 }
@@ -772,10 +794,7 @@ section.page-content {
   line-height: 20px;
   font-weight: 500;
   padding-bottom: 0px;
-  font-size: 14px;
-  color: #000000;
   margin-bottom: 0;
-  font-family: DINPro;
   margin-top: 0 !important;
 }
 
@@ -786,21 +805,15 @@ section.page-content {
 
 .btn-dir {
   font-size: 13px;
-  background: #9d1f2b;
-  color: #ffffff;
   padding: 8px 15px;
   margin-top: 10px;
   font: revert;
   vertical-align: baseline;
-  font-family: DINPro;
   border: none;
 }
 
 .contact-btn {
   vertical-align: baseline;
-  font-family: DINPro;
-  background: #9d1f2b;
-  color: #ffffff;
   padding: 13px 20px;
   display: inline-block;
   font-size: 13px;
@@ -813,38 +826,19 @@ section.page-content {
   gap: 80px;
 }
 
-.contact-input label {
-  padding-bottom: 10px;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: DINPro;
-}
-
 .contact-input input {
   width: 100%;
-  height: 21px;
-  padding: 0.5rem;
-  border: 1px solid #cacaca;
   margin: 0 0 1rem;
-  font-family: inherit;
-  font-size: 1rem;
-  color: #0a0a0a;
-  background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
-  border-radius: 0;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
   -webkit-appearance: none;
-  font-weight: 300;
 }
 
 .form-submit {
-  background: #9d1f2b;
-  color: #ffffff;
   padding: 8px 20px;
   border: none;
   font-size: 17px;
   font-weight: 300;
-  font-family: DINPro;
   margin-top: 20px;
 }
 
@@ -875,13 +869,8 @@ section.container {
 }
 .content-wrapper .content_container {
     padding: 0 20px;
-    font-family: 'DINPro';
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 27px;
 }
 .content_container p {
-    padding: 0px 0px 14px;
     margin: 0;
 }
 .services_list_tab {
@@ -917,8 +906,10 @@ section.container {
 }
 
 .content_container > ul li {
-  padding: 0 15px;
-  margin: 10px 16px;
+  padding: 10px 15px;
+  margin: 0 16px;
+  font-family: 'DINPro';
+  font-weight: 300;
 }
 
 /* End of Sector Page  */
@@ -946,7 +937,7 @@ section.container {
 .about-body,
 .investors-container {
   margin-top: 50px;
-  padding: 45px 50px;
+  padding: 45px 40px;
   background-color: #fff;
   border: 1px solid #dadada;
   max-width: 75rem;
@@ -955,20 +946,13 @@ section.container {
 .red-title,
 .investors-title {
   font-size: 22px;
-  color: #9d1f2b;
   line-height: 100%;
   margin: 20px 0px 10px 0px;
   text-align: center;
-  font-family: "Eurostile Extended";
   margin-bottom: 40px;
 }
 
 .about-paragraph {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
   padding-bottom: 14px;
   text-align: center;
 }
@@ -979,10 +963,6 @@ section.container {
 
 .about-mid-col {
   margin: 40px 0px;
-}
-
-.red-color {
-  color: #9d1f2b;
 }
 
 .about-small-gray {
@@ -1063,39 +1043,26 @@ section.container {
 }
 
 .leaders-col {
-  width: 20%;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
 }
 
 .leaders-col a {
-  font-family: DINPro;
-  color: #9d1f2b;
-  text-decoration: none;
   font-size: 16px;
+  font-weight: 500;
 }
 .leaders-col p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
   padding-bottom: 14px;
 }
 .leaders-col img {
+  margin-bottom: 12px;
   width: 100%;
 }
 
 .leader-name {
   font-size: 22px;
-  color: #9d1f2b;
   line-height: 100%;
   margin: 20px 0px 10px 0px;
-  text-transform: uppercase;
-  font-family: "Eurostile Extended";
-}
-.leader-designation {
-  font-family: DINPro;
 }
 .leader-image {
   display: flex;
@@ -1135,7 +1102,6 @@ section.container {
   height: 36px;
   line-height: 16px;
   color: white;
-  text-decoration: none;
 }
 .next-page-link:hover {
   text-decoration: underline;
@@ -1197,84 +1163,189 @@ section.container {
 
 
  /* Start Investor Relations*/
-.investor-relation h2{
- color: #9d1f2b;
- line-height: 100%;
- margin: 20px 0px 10px 0px;
- text-transform: uppercase;
- font-size: 22px;
- font-family: 'Eurostile Extended';
-
+.investor-relation {
+}
+.investor-relation h2 {
+  margin: 20px 0px 10px 0px;
+  font-size: 22px;
 }
 .investor-relation-content{
  padding: 20px 0px;
 }
-.investor-relation-content p{
- font-family: DINPro;
- font-weight: 300;
- color: #000000;
- font-size: 14px;
- line-height: 27px;
- padding-bottom: 14px;
+.investor-relation-content {
+  padding: 20px 0px;
 }
-.investor-relation-img-form-container{
+.investor-relation-img-form-container {
   display: flex;
 }
-.investor-relation-img{
-  padding:0 30px;
+.investor-relation-img {
+  padding: 0 30px;
 }
 
-.investor-relation-img img{
+.investor-relation-img img {
   width: 550px;
   height: 233px;
   margin-top: 30px;
 }
 
 .investor-relation-login-form{
+  flex-grow: 1;
   padding: 0 15px;
 }
 .investor-relation-login-form h2{
- color: #9d1f2b;
- line-height: 100%;
  margin: 20px 0 30px 0px;
- text-transform: uppercase;
  font-size: 22px;
- font-family: 'Eurostile Extended';
-
-}
-.investor-relation-login-form label{
- padding-bottom: 10px;
- font-size: 16px;
- font-weight: 300;
- font-family: DINPro;
 
 }
 .investor-relation-login-form input{
- width: 180%;
- height: 39px;
- padding: 0.5rem;
- border: 1px solid #cacaca;
+ width: 100%;
  margin: 0 0 1rem;
- font-family: inherit;
- font-size: 1rem;
- color: #0a0a0a;
- background-color: #fefefe;
  box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
  border-radius: 0;
  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
  -webkit-appearance: none;
- font-weight: 300;
 
 }
 .investor-relation-login-form button{
- background: #9d1f2b;
- color: #FFFFFF;
  padding: 8px 20px;
  border: none;
  font-size: 17px;
  font-weight: 500;
- font-family: DINPro;
 }
 
 
+
+
+
 /* End of Investor Relations*/
+
+
+/* Start of Media Queries for responsiveness */
+
+@media (max-width: 991px) {
+
+  .investor-relation-img-form-container {
+    flex-direction: column;
+  }
+  .investor-relation .investor-relation-img img {
+    width: calc(100vw - 70px);
+    height: auto;
+  }
+  .investor-relation .investor-relation-img {
+    padding: 0;
+  }
+  section.page-content .investor-relation h2{
+    text-align: center;
+  }
+  
+    /* Start of sector pages  */
+    .container .content-wrapper .image_conatiner {
+      padding: 0 15px;
+      text-align: center;
+      max-width: 476px;
+      margin: 0 auto;
+    }
+    .container .content-wrapper .logo-image {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .services_list_tab > ul.sector-tab > li.tab-item {
+        border-right: 0px;
+        border-bottom: 1px solid #af2330;
+        padding: 10px 20px;
+        margin-right: 0px;
+    }
+    .container .content-wrapper {
+      flex-direction: column;
+    }
+    .services_list_tab ul.sector-tab {
+      flex-direction: column;
+    }
+    .container .content-wrapper img {
+      width: 100%;
+    }
+
+    /* Start of footer section  */
+    .footer-wrapper .container {
+      max-width: 100%;
+    }
+    .footer-wrapper .footer .footer-col-3{
+      padding-top: 33px;
+    }
+    .footer-wrapper .footer .footer-col-2 {
+      border: 0;
+      border-left: 1px solid black;
+    }
+}
+@media (max-width: 540px) {
+
+  section.container .welcome-logo {
+    width: calc(100vw - 100px);
+  }
+  section.page-content p {
+    text-align: center;
+  }
+
+    /* Start of sector pages  */
+  .container .content_container {
+    padding: 5px 0;
+  }
+  
+    /* Start of footer section  */
+  .footer-wrapper .footer .footer-btn,.col-2-btn {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  .footer-wrapper .footer .sector-list li {
+    text-align: center;
+  }
+  .footer-wrapper .footer .footer-col-2 {
+    border: 0;
+  }
+}
+@media (max-width: 768px) {
+  .investor-relation .investor-relation-img img {
+    width: calc(100vw - 90px);
+    height: auto;
+  }
+  .investor-relation .investor-relation-login-form label {
+    width: 100%;
+    text-align: center;
+  }
+  .investor-relation .investor-relation-login-form > div {
+    display: flex;
+    justify-content: center;
+  }
+    .about-container .about-body p {
+      font-size: 12px;
+      line-height: 22px;
+      padding-bottom: 10px;
+    }
+    .container .content_container p {
+      text-align: center;
+    }
+    .footer-wrapper .footer .address {
+      text-align: center;
+    }
+    .footer-wrapper .footer .address-header, .send-mail {
+      justify-content: center;
+    }
+    .about-container .about-body .about-black {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: -2px;
+      font-weight: 500;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 576px) {
+  .footer .footer-col-3 {
+    transform: translateX(50%);
+  }
+  .footer .footer-col-3 .footer-btn {
+    margin: 0 auto 12px;
+    text-align: center;
+  }
+
+}
