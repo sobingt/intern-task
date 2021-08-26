@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
     <link href="/css/style.css" rel="stylesheet" />
@@ -9,7 +10,7 @@
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <nav id="mainNav" class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#page-top"><img src="./assets/img/navbar-logo.svg" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -30,14 +31,18 @@
                     <li id="sector-dropdown-button" class="nav-item dropdown">
                         <a class="nav-link font-sm">sector</a>
                         <ul id="sector-sub-dropdown" class="dropdown-menu text-capitalize p-0">
-                            <li class="dropdown-item p-2 px-4 font-xs">
+                            <li class="dropdown-item p-2 px-4 font-xs"
+                                onclick="window.location.href ='/sectors/index.html'">
                                 Investment Management
                             </li>
-                            <li class="dropdown-item p-2 px-4 font-xs">Asset Management</li>
-                            <li class="dropdown-item p-2 px-4 font-xs">
+                            <li class="dropdown-item p-2 px-4 font-xs"
+                                onclick="window.location.href ='/sectors/asset_management.html'">Asset Management</li>
+                            <li class="dropdown-item p-2 px-4 font-xs"
+                                onclick="window.location.href ='/sectors/development_management.html'">
                                 Development Management
                             </li>
-                            <li class="dropdown-item p-2 px-4 font-xs">
+                            <li class="dropdown-item p-2 px-4 font-xs"
+                                onclick="window.location.href ='/sectors/fdi.html'">
                                 Foreign Direct Investments
                             </li>
                         </ul>
@@ -54,132 +59,147 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
+    <!-- <header class="masthead">
         <div class="container">
             <div class="masthead-subheading">Welcome To Our Studio!</div>
             <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
             <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
         </div>
-    </header>
+    </header> -->
     <!-- Services-->
     <section class="container page-content">
         <div class="row">
-    
+
             <div class="col">
                 <figure class="welcome-logo"><img src="/assets/img/logos/BGP-welcome-logo.jpeg"></figure>
                 <h2 class="ideology-title">Welcome</h2>
-                <p>The current landscapes of Global Capital Markets, Foreign Direct Investment and Real Estate Investments are ever-changing, especially in the real estate sector owing to the unstable global economy, changing policies and turbulent times. In today’s financial world, the many risk factors for real estate investments, development &amp; operations are increasing and so is its unpredictability. At BEAUFORT, our primary goal is to tackle these challenges effectively &amp; efficiently to reduce the financial risk and to increase owner’s equity.</p>
-                <p>As a Dubai, UAE based firm, BEAUFORT is strategically placed as a global hub for global markets and pays special attention towards multi-cultural sensitivity on all continents. Our team of seasoned &amp; accomplished global professionals have earned BEAUFORT a credible reputation which has made a significant mark in the international arena. In order to effectively deliver and provide results oriented execution, BEAUFORT has the sole aim and fiduciary duty to realize the investment strategy of our valued trusted clients and unfailingly to represent their best interests. We work closely with both the government and public sector organizations to foster the right dialogue, platform &amp; landscape for effective international relations coupled with targeted and successful commercial transactions. At BEAUFORT we share the collective knowledge and expertise of our global senior executives which has been garnered through many years of dedication and passion for hospitality management, operations, finance, investments, development and asset management.</p>
-                <p>We look forward to supporting you in realizing your investment strategies and financial goals towards building a strong, sustainable and successful long term relationship.</p>
+                <p>The current landscapes of Global Capital Markets, Foreign Direct Investment and Real Estate
+                    Investments are ever-changing, especially in the real estate sector owing to the unstable global
+                    economy, changing policies and turbulent times. In today’s financial world, the many risk factors
+                    for real estate investments, development &amp; operations are increasing and so is its
+                    unpredictability. At BEAUFORT, our primary goal is to tackle these challenges effectively &amp;
+                    efficiently to reduce the financial risk and to increase owner’s equity.</p>
+                <p>As a Dubai, UAE based firm, BEAUFORT is strategically placed as a global hub for global markets and
+                    pays special attention towards multi-cultural sensitivity on all continents. Our team of seasoned
+                    &amp; accomplished global professionals have earned BEAUFORT a credible reputation which has made a
+                    significant mark in the international arena. In order to effectively deliver and provide results
+                    oriented execution, BEAUFORT has the sole aim and fiduciary duty to realize the investment strategy
+                    of our valued trusted clients and unfailingly to represent their best interests. We work closely
+                    with both the government and public sector organizations to foster the right dialogue, platform
+                    &amp; landscape for effective international relations coupled with targeted and successful
+                    commercial transactions. At BEAUFORT we share the collective knowledge and expertise of our global
+                    senior executives which has been garnered through many years of dedication and passion for
+                    hospitality management, operations, finance, investments, development and asset management.</p>
+                <p>We look forward to supporting you in realizing your investment strategies and financial goals towards
+                    building a strong, sustainable and successful long term relationship.</p>
             </div>
     </section>
 
-        <!-- Footer-->
-        <footer class="footer-wrapper container-fluid">
-            <div class="container footer">
-                <div class="row">
-                    <div class="col footer-col-1">
-                        <div class="address">
-                            <div class="address-header">
-                                <span><img src="/assets/img/footer/foot_ic.png" /></span>
-                                <strong>DUBAI</strong>
-                            </div>
-                            <span class="address-description">
-                                Beaufort Global Partners: <br />
-                                Emirates Towers, Level 41<br />
-                                Sheikh Zayed Road, PO 31303 <br />
-                                Dubai, United Arab Emirates <br />
-                                Office: +971 4 313 2743<br />
-                                FAX: +971 4 313 2744<br />
-                            </span>
+    <!-- Footer-->
+    <footer class="footer-wrapper container-fluid">
+        <div class="container footer">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                <div class="col footer-col-1">
+                    <div class="address">
+                        <div class="address-header">
+                            <span><img src="/assets/img/footer/foot_ic.png" /></span>
+                            <strong>DUBAI</strong>
                         </div>
-                        <div class="address">
-                            <div class="address-header">
-                                <span><img src="/assets/img/footer/foot_ic.png" /></span>
-                                <strong>DUBAI</strong>
-                            </div>
-                            <span class="address-description">
-                                Beaufort Global Partners: <br />
-                                Emirates Towers, Level 41<br />
-                                Sheikh Zayed Road, PO 31303 <br />
-                                Dubai, United Arab Emirates <br />
-                                Office: +971 4 313 2743<br />
-                                FAX: +971 4 313 2744<br />
-                            </span>
-                        </div>
-                        <div class="send-mail">
-                            <span><img src="/assets/img/footer/foot_ic3.png" /></span>
-                            <span class="mail-link">
-                                <a href="#">Get in touch</a>
-                            </span>
-                        </div>
+                        <span class="address-description">
+                            Beaufort Global Partners: <br />
+                            Emirates Towers, Level 41<br />
+                            Sheikh Zayed Road, PO 31303 <br />
+                            Dubai, United Arab Emirates <br />
+                            Office: +971 4 313 2743<br />
+                            FAX: +971 4 313 2744<br />
+                        </span>
                     </div>
-                    <div class="col footer-col-2">
-                        <div class="col-2-btn">
-                            <div class="footer-btn">Sectors</div>
+                    <div class="address">
+                        <div class="address-header">
+                            <span><img src="/assets/img/footer/foot_ic.png" /></span>
+                            <strong>DUBAI</strong>
                         </div>
-                        <ul class="sector-list">
-                            <li>
-                                <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
-                            </li>
-                            <li>
-                                <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
-                            </li>
-                            <li>
-                                <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
-                            </li>
-                            <li>
-                                <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
-                            </li>
-                        </ul>
+                        <span class="address-description">
+                            Beaufort Global Partners: <br />
+                            Emirates Towers, Level 41<br />
+                            Sheikh Zayed Road, PO 31303 <br />
+                            Dubai, United Arab Emirates <br />
+                            Office: +971 4 313 2743<br />
+                            FAX: +971 4 313 2744<br />
+                        </span>
                     </div>
-                    <div class="col footer-col-3">
-                        <div class="footer-btn">Company</div>
-                        <div class="footer-btn">Relationships</div>
-                        <div class="footer-btn">Investor Relations</div>
+                    <div class="send-mail">
+                        <span><img src="/assets/img/footer/foot_ic3.png" /></span>
+                        <span class="mail-link">
+                            <a href="#">Get in touch</a>
+                        </span>
                     </div>
                 </div>
+                <div class="col footer-col-2">
+                    <div class="col-2-btn">
+                        <div class="footer-btn">Sectors</div>
+                    </div>
+                    <ul class="sector-list">
+                        <li>
+                            <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
+                        </li>
+                        <li>
+                            <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
+                        </li>
+                        <li>
+                            <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
+                        </li>
+                        <li>
+                            <img src="/assets/img/footer/BGP-02-redbg.jpg" alt="not found" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col footer-col-3">
+                    <div class="footer-btn">Company</div>
+                    <div class="footer-btn">Relationships</div>
+                    <div class="footer-btn">Investor Relations</div>
+                </div>
             </div>
-           
-        </footer>
-        <!-- Bootstrap core JavaScript
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript
         ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script>
-            window.jQuery ||
-                document.write(
-                    '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
-                );
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-            integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-            integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-            crossorigin="anonymous"></script>
-        <script>
-            $(".dropdown").hover(function () {
-                const dropdownMenu = $(this).children(".dropdown-menu");
-                if (!dropdownMenu.is(":visible")) {
-                    dropdownMenu.toggleClass("d-block");
-                } else {
-                    dropdownMenu.toggleClass("d-block");
-                }
-            });
-
-            function changeBgcolor() {
-                if (window.scrollY > 80) {
-                    $("#mainNav").addClass("navbar-gray");
-                } else {
-                    $("#navbar").removeClass("navbar-gray");
-                }
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery ||
+            document.write(
+                '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+            );
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+    <script>
+        $(".dropdown").hover(function () {
+            const dropdownMenu = $(this).children(".dropdown-menu");
+            if (!dropdownMenu.is(":visible")) {
+                dropdownMenu.toggleClass("d-block");
+            } else {
+                dropdownMenu.toggleClass("d-block");
             }
+        });
 
-            window.addEventListener("scroll", changeBgcolor);
-        </script>
+        function changeBgcolor() {
+            if (window.scrollY > 80) {
+                $("#mainNav").addClass("navbar-gray");
+            } else {
+                $("#navbar").removeClass("navbar-gray");
+            }
+        }
+
+        window.addEventListener("scroll", changeBgcolor);
+    </script>
 </body>
 
 </html>
