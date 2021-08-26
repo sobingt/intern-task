@@ -444,6 +444,59 @@ header.masthead .masthead-heading {
   }
 }
 
+/* Global Declaration */
+
+p, span, a {
+  font-family: 'DINPro';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  color: #000;
+  padding-bottom: 14px;
+}
+span {
+  line-height: normal;
+}
+a{
+  color: #af2330;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover {
+  color: #9d1f2b;
+}
+label {
+  font-size: 14px;
+  font-family: 'DINPro';
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+input {
+  padding: 0.5rem;
+  font-size: 14px;
+  font-family: 'DINPro';
+  border: 1px solid #cacaca;
+  font-weight: 300;
+}
+input[type="submit"], button {
+  background: #af2330;
+  color: white;
+  font-family: 'DINPro';
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Eurostile Extended";
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #9d1f2b;
+}
+
 /*** Start of Trusted Relationship Section ***/
 
 .trusted-relationship-container {
@@ -462,21 +515,12 @@ header.masthead .masthead-heading {
 }
 
 .trusted-relationship h3 {
-  font-family: 'Eurostile Extended';
   font-size: 22px;
-  text-transform: uppercase;
   padding: 56px 0px 26px 0px;
-  color: #af2331;
 }
 
 .trusted-relationship p {
-  font-size: 16px;
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
   font-size: 18px;
-  line-height: 27px;
-  padding-bottom: 14px;
 }
 
 .trusted-relationship-img {
@@ -503,10 +547,7 @@ header.masthead .masthead-heading {
   left: 215px;
   opacity: 1;
   margin-left: 15px;
-  font-family: "Eurostile Extended";
   font-size: 14px;
-  font-family: DINPro;
-  text-transform: uppercase;
   background-color: #af2330;
   color: white;
   display: inline-block;
@@ -518,8 +559,6 @@ header.masthead .masthead-heading {
   left: 215px;
   opacity: 1;
   margin-left: 0px;
-  font-family: "Eurostile Extended";
-  font-size: 14px;
   font-family: DINPro;
   font-weight: 500;
   text-transform: uppercase;
@@ -560,10 +599,7 @@ footer.container-fluid {
 }
 
 .address .address-description {
-  font-family: 'DINPro';
   font-size: 13px;
-  font-weight: 300;
-  color: #0a0a0a;
 }
 
 .footer .send-mail {
@@ -575,11 +611,8 @@ footer.container-fluid {
 
 .footer .send-mail .mail-link a {
   vertical-align: baseline;
-  font-family: DINPro;
   text-decoration: underline;
-  color: #000000;
   font-size: 13px;
-  font-weight: 300;
 }
 
 .footer .send-mail .mail-link a:hover {
@@ -607,11 +640,9 @@ a:hover {
 }
 
 .footer-btn {
-  font-family: DINPro;
-  font-weight: 500;
+  text-transform: uppercase;
   color: #000000;
   font-size: 18px;
-  text-transform: uppercase;
   background-color: #c3c3c3;
   display: table;
   padding: 8px 12px;
@@ -632,6 +663,14 @@ a:hover {
 
 .col-2-btn {
   width: 100px;
+}
+.footer .send-mail a {
+  font-size: 13px;
+  color: black;
+  text-transform: capitalize;
+}
+.footer .send-mail a:hover {
+  color: #af2331;
 }
 
 .col2 img {
@@ -665,18 +704,7 @@ ul.sector-list li img {
   z-index: 1;
 }
 
-.management-firm p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
-  padding-bottom: 14px;
-}
-
 .management-firm p span {
-  color: #af2330;
-  font-family: DINPro;
   font-size: 15px;
 }
 
@@ -707,28 +735,14 @@ ul.sector-list li img {
 }
 
 .ideology h3 {
-  color: #af2331;
   margin-bottom: 20px;
   font-size: 17px;
-  text-transform: uppercase;
-  font-family: 'Eurostile Extended';
-}
-
-.ideology-details p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  line-height: 27px;
-  padding-bottom: 14px;
 }
 
 .ideology-title {
-  color: #af2331;
   margin-bottom: 20px;
-  font-family: 'Eurostile Extended';
   font-size: 16px;
   font-weight: 400;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -768,10 +782,7 @@ section.page-content {
 }
 
 .contact h2 {
-  color: #9d1f2b;
-  line-height: 100%;
   margin: 20px 0px 10px 0px;
-  font-family: 'Eurostile Extended';
   margin-bottom: 30px;
   font-size: 22px;
 }
@@ -790,10 +801,7 @@ section.page-content {
   line-height: 20px;
   font-weight: 500;
   padding-bottom: 0px;
-  font-size: 14px;
-  color: #000000;
   margin-bottom: 0;
-  font-family: DINPro;
   margin-top: 0 !important;
 }
 
@@ -804,21 +812,15 @@ section.page-content {
 
 .btn-dir {
   font-size: 13px;
-  background: #9d1f2b;
-  color: #ffffff;
   padding: 8px 15px;
   margin-top: 10px;
   font: revert;
   vertical-align: baseline;
-  font-family: DINPro;
   border: none;
 }
 
 .contact-btn {
   vertical-align: baseline;
-  font-family: DINPro;
-  background: #9d1f2b;
-  color: #ffffff;
   padding: 13px 20px;
   display: inline-block;
   font-size: 13px;
@@ -831,38 +833,19 @@ section.page-content {
   gap: 80px;
 }
 
-.contact-input label {
-  padding-bottom: 10px;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: DINPro;
-}
-
 .contact-input input {
   width: 100%;
-  height: 21px;
-  padding: 0.5rem;
-  border: 1px solid #cacaca;
   margin: 0 0 1rem;
-  font-family: inherit;
-  font-size: 1rem;
-  color: #0a0a0a;
-  background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
-  border-radius: 0;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
   -webkit-appearance: none;
-  font-weight: 300;
 }
 
 .form-submit {
-  background: #9d1f2b;
-  color: #ffffff;
   padding: 8px 20px;
   border: none;
   font-size: 17px;
   font-weight: 300;
-  font-family: DINPro;
   margin-top: 20px;
 }
 
@@ -893,13 +876,8 @@ section.container {
 }
 .content-wrapper .content_container {
     padding: 0 20px;
-    font-family: 'DINPro';
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 27px;
 }
 .content_container p {
-    padding: 0px 0px 14px;
     margin: 0;
 }
 .services_list_tab {
@@ -935,8 +913,10 @@ section.container {
 }
 
 .content_container > ul li {
-  padding: 0 15px;
-  margin: 10px 16px;
+  padding: 10px 15px;
+  margin: 0 16px;
+  font-family: 'DINPro';
+  font-weight: 300;
 }
 
 /* End of Sector Page  */
@@ -969,20 +949,13 @@ section.container {
 
 .red-title {
   font-size: 22px;
-  color: #9d1f2b;
   line-height: 100%;
   margin: 20px 0px 10px 0px;
   text-align: center;
-  font-family: 'Eurostile Extended';
   margin-bottom: 40px;
 }
 
 .about-paragraph {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
   padding-bottom: 14px;
   text-align: center;
 }
@@ -993,10 +966,6 @@ section.container {
 
 .about-mid-col {
   margin: 40px 0px;
-}
-
-.red-color {
-  color: #9d1f2b;
 }
 
 .about-small-gray {
@@ -1049,33 +1018,21 @@ section.container {
 }
 
 .leaders-col a {
-  font-family: DINPro;
-  color: #9d1f2b;
-  text-decoration: none;
   font-size: 16px;
+  font-weight: 500;
 }
 .leaders-col p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
   padding-bottom: 14px;
 }
 .leaders-col img {
+  margin-bottom: 12px;
   width: 100%;
 }
 
 .leader-name {
   font-size: 22px;
-  color: #9d1f2b;
   line-height: 100%;
   margin: 20px 0px 10px 0px;
-  text-transform: uppercase;
-  font-family: 'Eurostile Extended';
-}
-.leader-designation {
-  font-family: DINPro;
 }
 .leader-image {
   display: flex;
@@ -1113,7 +1070,6 @@ section.container {
   height: 36px;
   line-height: 16px;
   color: white;
-  text-decoration: none;
 }
 .next-page-link:hover {
   text-decoration: underline;
@@ -1126,23 +1082,11 @@ section.container {
 .investor-relation {
 }
 .investor-relation h2 {
-  color: #9d1f2b;
-  line-height: 100%;
   margin: 20px 0px 10px 0px;
-  text-transform: uppercase;
   font-size: 22px;
-  font-family: 'Eurostile Extended';
 }
 .investor-relation-content {
   padding: 20px 0px;
-}
-.investor-relation-content p {
-  font-family: DINPro;
-  font-weight: 300;
-  color: #000000;
-  font-size: 14px;
-  line-height: 27px;
-  padding-bottom: 14px;
 }
 .investor-relation-img-form-container {
   display: flex;
@@ -1162,46 +1106,24 @@ section.container {
   padding: 0 15px;
 }
 .investor-relation-login-form h2{
- color: #9d1f2b;
- line-height: 100%;
  margin: 20px 0 30px 0px;
- text-transform: uppercase;
  font-size: 22px;
- font-family: 'Eurostile Extended';
-
-}
-.investor-relation-login-form label{
- padding-bottom: 10px;
- font-size: 16px;
- font-weight: 300;
- font-family: DINPro;
 
 }
 .investor-relation-login-form input{
  width: 100%;
- height: 39px;
- padding: 0.5rem;
- border: 1px solid #cacaca;
  margin: 0 0 1rem;
- font-family: inherit;
- font-size: 1rem;
- color: #0a0a0a;
- background-color: #fefefe;
  box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
  border-radius: 0;
  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
  -webkit-appearance: none;
- font-weight: 300;
 
 }
 .investor-relation-login-form button{
- background: #9d1f2b;
- color: #FFFFFF;
  padding: 8px 20px;
  border: none;
  font-size: 17px;
  font-weight: 500;
- font-family: DINPro;
 }
 
 
@@ -1328,4 +1250,15 @@ section.container {
       margin-bottom: -2px;
       font-weight: 500;
     }
+}
+
+@media (max-width: 991px) and (min-width: 576px) {
+  .footer .footer-col-3 {
+    transform: translateX(50%);
+  }
+  .footer .footer-col-3 .footer-btn {
+    margin: 0 auto 12px;
+    text-align: center;
+  }
+
 }
