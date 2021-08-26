@@ -307,6 +307,10 @@ p {
   text-decoration: none;
   color: #000;
 }
+
+.show .nav-item {
+  background: rgba(0,0,0,0.6);
+}
 /* End of Navbar */
 
 #mainNav {
@@ -998,6 +1002,14 @@ section.container {
 /* End of About */
 
 /*Start of Leadership*/
+
+.leader-designation {
+  color: #0a0a0a;
+  font-size: 20px;
+  font-family: 'DINPro';
+  font-weight: 500;
+  text-transform: capitalize;
+}
 
 .leadership-navbar {
   height: 100px;
