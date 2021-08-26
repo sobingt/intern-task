@@ -157,11 +157,22 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: DINPro;
+  font-family: "DINPro";
 }
 
 body {
   background-color: #f2f2f2;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "DINPro";
+  font-weight: normal;
+  line-height: 1.5;
+  color: #0a0a0a;
+  background: #fefefe;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 hr {
@@ -190,9 +201,9 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
 }
@@ -285,9 +296,9 @@ p {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -309,7 +320,7 @@ p {
 }
 
 .show .nav-item {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
 }
 /* End of Navbar */
 
@@ -322,18 +333,18 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 700;
 }
 
 #mainNav .navbar-brand {
   color: #ffc800;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -344,9 +355,9 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
@@ -362,7 +373,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: rgb(0,0,0,0.6);
+    background-color: rgb(0, 0, 0, 0.6);
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -398,7 +409,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url('../assets/img/header-bg.jpg');
+  background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -410,9 +421,9 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 header.masthead .masthead-heading {
@@ -420,9 +431,9 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (min-width: 768px) {
@@ -446,8 +457,10 @@ header.masthead .masthead-heading {
 
 /* Global Declaration */
 
-p, span, a {
-  font-family: 'DINPro';
+p,
+span,
+a {
+  font-family: "DINPro";
   font-weight: 300;
   font-size: 14px;
   line-height: 27px;
@@ -457,7 +470,7 @@ p, span, a {
 span {
   line-height: normal;
 }
-a{
+a {
   color: #af2330;
   text-transform: uppercase;
   text-decoration: none;
@@ -467,7 +480,7 @@ a:hover {
 }
 label {
   font-size: 14px;
-  font-family: 'DINPro';
+  font-family: "DINPro";
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 10px;
   font-weight: 500;
@@ -475,20 +488,26 @@ label {
 input {
   padding: 0.5rem;
   font-size: 14px;
-  font-family: 'DINPro';
+  font-family: "DINPro";
   border: 1px solid #cacaca;
   font-weight: 300;
 }
-input[type="submit"], button {
+input[type="submit"],
+button {
   background: #af2330;
   color: white;
-  font-family: 'DINPro';
+  font-family: "DINPro";
   text-transform: uppercase;
   padding: 10px 20px;
   font-weight: 500;
   font-size: 14px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Eurostile Extended";
   font-size: 20px;
   font-weight: bold;
@@ -540,7 +559,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-.home-content{
+.home-content {
   padding-bottom: 0px !important;
 }
 
@@ -586,7 +605,7 @@ footer.container-fluid {
 
 .address .address-header strong {
   font-size: 14px;
-  font-family: 'DINPro';
+  font-family: "DINPro";
   font-weight: bold;
   color: #000000;
 }
@@ -599,6 +618,8 @@ footer.container-fluid {
 
 .address .address-header span {
   padding-right: 6px;
+  padding-bottom: 0px;
+  line-height: 12px;
 }
 
 .address .address-description {
@@ -633,11 +654,9 @@ a:hover {
   padding-left: 3%;
 }
 
-.footer-img{
+.footer-img {
   cursor: pointer;
-
 }
-
 
 .footer-col-2,
 .footer-col-3 {
@@ -650,6 +669,7 @@ a:hover {
 
 .footer-btn {
   text-transform: uppercase;
+  line-height: normal;
   color: #000000;
   font-size: 18px;
   background-color: #c3c3c3;
@@ -661,10 +681,9 @@ a:hover {
   font-weight: 500;
 }
 
-.trusted-relationship-img img{
+.trusted-relationship-img img {
   cursor: pointer;
 }
-
 
 .footer-btn span {
   font-weight: bold;
@@ -869,78 +888,77 @@ section.page-content {
 
 /* End of Contact */
 
-
 /* Start of Sector Page */
 
 section.container {
-    background: white;
-    max-width: 1200px;
-    padding: 30px 20px;
-    margin: 50px auto;
-    height: fit-content;
+  background: white;
+  max-width: 1200px;
+  padding: 30px 20px;
+  margin: 50px auto;
+  height: fit-content;
 }
 .content-wrapper {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-.content-wrapper .image_container > div{
-    width: 100%;
+.content-wrapper .image_container > div {
+  width: 100%;
 }
 .content-wrapper .image_container img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
 }
 .content-wrapper .content_container {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 .content_container p {
-    margin: 0;
+  margin: 0;
 }
 .services_list_tab {
-    margin: 40px 0 30px;
+  margin: 40px 0 30px;
 }
 .services_list_tab ul.sector-tab {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.services-wrapper{
+.services-wrapper {
   width: 1204px;
-  
+
   z-index: 999;
   background-color: white;
   margin: 0 auto !important;
 }
 .services_list_tab > ul.sector-tab > li.tab-item {
-  font-family: 'DINPro';
-    font-weight: 500;
-    font-size: 18px;
-    color: #af2331;
-    border-right: 1px solid black;
-    padding: 5px 20px 14px 0px;
-    margin-right: 25px;
-    cursor: pointer;
-    color: black;
+  font-family: "DINPro";
+  font-weight: 500;
+  font-size: 18px;
+  color: #af2331;
+  border-right: 1px solid black;
+  padding: 5px 20px 14px 0px;
+  margin-right: 25px;
+  cursor: pointer;
+  color: black;
 }
 .services_list_tab ul.sector-tab li:nth-child(4) {
-    border: none;
+  border: none;
 }
 .services_list_tab ul.sector-tab li.active-tab {
-    color: #af2331;
+  color: #af2331;
 }
 
 .content_container > ul {
-    font-size: 13px;
-    margin: -10px 0 0;
+  font-size: 13px;
+  margin: -10px 0 0;
 }
 
 .content_container > ul li {
   padding: 10px 15px;
   margin: 0 16px;
-  font-family: 'DINPro';
+  font-family: "DINPro";
   font-weight: 300;
 }
 
@@ -964,7 +982,6 @@ section.container {
   justify-content: center;
   margin-top: 50px;
 }
-
 
 .about-body,
 .investors-container {
@@ -1020,39 +1037,56 @@ section.container {
 .leader-designation {
   color: #0a0a0a;
   font-size: 20px;
-  font-family: 'DINPro';
+  font-family: "DINPro";
   font-weight: 500;
   text-transform: capitalize;
 }
 
 .leadership-navbar {
   height: 100px;
-  background-color: rgba(0,0,0,0.6)!important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
   text-transform: uppercase;
   font-family: DINPro;
   font-size: 14px;
-}.leadership-navbar img {
+}
+.leadership-navbar img {
   max-width: 231px;
-}.leadership-navbar .nav-link,.leadership-navbar .dropdown-item {
+}
+.leadership-navbar .nav-link,
+.leadership-navbar .dropdown-item {
   color: #fff !important;
-}.leadership-navbar .dropdown-item {
-  background: rgba(0,0,0,0.8)!important;
-}.leadership-navbar .dropdown-menu {
+}
+.leadership-navbar .dropdown-item {
+  background: rgba(0, 0, 0, 0.8) !important;
+  position: relative;
+  z-index: 3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.leadership-navbar .dropdown-menu {
   padding: 0px !important;
   margin: 0px !important;
-}.leadership-navbar .nav-link,.leadership-navbar .dropdown-item{
+}
+.leadership-navbar .nav-link,
+.leadership-navbar .dropdown-item {
   padding: 15px 20px 15px 20px !important;
-}.leadership-navbar .dropdown-menu {
+}
+.leadership-navbar .dropdown-menu {
   border: none !important;
-}.leadership-navbar .navbar-nav {
+}
+.leadership-navbar .navbar-nav {
   width: 100%;
 }
 .leadership-navbar .nav-link:hover {
   color: #000000 !important;
-    background-color: #9d1f2b;
-}.leadership-navbar .dropdown-item:hover {
+  background-color: #9d1f2b;
+}
+.leadership-navbar .dropdown-item:hover {
   color: #000000 !important;
   background-color: #9d1f2b !important;
+  z-index: 3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .leadership-center,
@@ -1070,7 +1104,6 @@ section.container {
   border: 1px solid #dadada;
   max-width: 75rem;
 }
-
 
 .leadership-container h2,
 .investors-title {
@@ -1152,63 +1185,62 @@ section.container {
 
 /* Start of Relationships */
 .buttons-group {
-    font-family: "Eurostile Extended";
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 20px 0px;
-    text-align: center;
+  font-family: "Eurostile Extended";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0px;
+  text-align: center;
 }
 .buttons-group a {
-    color: #fff;
-    display: block;
-    font-size: 16px;
-    background: #9d1f2b;
-    width: 200px;
-    margin-right: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    height: 56px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  background: #9d1f2b;
+  width: 200px;
+  margin-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  height: 56px;
 }
-.active-button{
-    background: #65141c;
-    background-color: #65141c !important;
+.active-button {
+  background: #65141c;
+  background-color: #65141c !important;
 }
 .relationship-title-selected {
-    font-family: 'Eurostile Extended';
-    color: #000000;
-    font-size: 17px;
-    text-transform: uppercase;
-    padding: 56px 0px 26px 0px;
-    clear: both;
+  font-family: "Eurostile Extended";
+  color: #000000;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 56px 0px 26px 0px;
+  clear: both;
 }
 .investors-container .row .col img {
-    width: 160px;
+  width: 160px;
 }
 .investors-container .row .col {
-    text-align: center;
-    border-right: 1px solid #C1C1C1;
-    border-bottom: 1px solid #C1C1C1;
-    min-height: 165px;
-    padding: 10px 0px;
-    width: 100%;
-    float: left;
-    list-style: none;
-    max-width: 14vw;
+  text-align: center;
+  border-right: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  min-height: 165px;
+  padding: 10px 0px;
+  width: 100%;
+  float: left;
+  list-style: none;
+  max-width: 14vw;
 }
 
 /*End of Leadership*/
 
-
- /* Start Investor Relations*/
+/* Start Investor Relations*/
 .investor-relation h2 {
   margin: 20px 0px 10px 0px;
   font-size: 22px;
 }
-.investor-relation-content{
- padding: 20px 0px;
+.investor-relation-content {
+  padding: 20px 0px;
 }
 .investor-relation-content {
   padding: 20px 0px;
@@ -1226,42 +1258,34 @@ section.container {
   margin-top: 30px;
 }
 
-.investor-relation-login-form{
+.investor-relation-login-form {
   flex-grow: 1;
   padding: 0 15px;
 }
-.investor-relation-login-form h2{
- margin: 20px 0 30px 0px;
- font-size: 22px;
-
+.investor-relation-login-form h2 {
+  margin: 20px 0 30px 0px;
+  font-size: 22px;
 }
-.investor-relation-login-form input{
- width: 100%;
- margin: 0 0 1rem;
- box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
- border-radius: 0;
- transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
- -webkit-appearance: none;
-
+.investor-relation-login-form input {
+  width: 100%;
+  margin: 0 0 1rem;
+  box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+  border-radius: 0;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  -webkit-appearance: none;
 }
-.investor-relation-login-form button{
- padding: 8px 20px;
- border: none;
- font-size: 17px;
- font-weight: 500;
+.investor-relation-login-form button {
+  padding: 8px 20px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
 }
-
-
-
-
 
 /* End of Investor Relations*/
-
 
 /* Start of Media Queries for responsiveness */
 
 @media (max-width: 991px) {
-
   .investor-relation-img-form-container {
     flex-direction: column;
   }
@@ -1272,51 +1296,50 @@ section.container {
   .investor-relation .investor-relation-img {
     padding: 0;
   }
-  section.page-content .investor-relation h2{
+  section.page-content .investor-relation h2 {
     text-align: center;
   }
-  
-    /* Start of sector pages  */
-    .container .content-wrapper .image_conatiner {
-      padding: 0 15px;
-      text-align: center;
-      max-width: 476px;
-      margin: 0 auto;
-    }
-    .container .content-wrapper .logo-image {
-      max-width: 400px;
-      margin: 0 auto;
-    }
-    .services_list_tab > ul.sector-tab > li.tab-item {
-        border-right: 0px;
-        border-bottom: 1px solid #af2330;
-        padding: 10px 20px;
-        margin-right: 0px;
-    }
-    .container .content-wrapper {
-      flex-direction: column;
-    }
-    .services_list_tab ul.sector-tab {
-      flex-direction: column;
-    }
-    .container .content-wrapper img {
-      width: 100%;
-    }
 
-    /* Start of footer section  */
-    .footer-wrapper .container {
-      max-width: 100%;
-    }
-    .footer-wrapper .footer .footer-col-3{
-      padding-top: 33px;
-    }
-    .footer-wrapper .footer .footer-col-2 {
-      border: 0;
-      border-left: 1px solid black;
-    }
+  /* Start of sector pages  */
+  .container .content-wrapper .image_conatiner {
+    padding: 0 15px;
+    text-align: center;
+    max-width: 476px;
+    margin: 0 auto;
+  }
+  .container .content-wrapper .logo-image {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .services_list_tab > ul.sector-tab > li.tab-item {
+    border-right: 0px;
+    border-bottom: 1px solid #af2330;
+    padding: 10px 20px;
+    margin-right: 0px;
+  }
+  .container .content-wrapper {
+    flex-direction: column;
+  }
+  .services_list_tab ul.sector-tab {
+    flex-direction: column;
+  }
+  .container .content-wrapper img {
+    width: 100%;
+  }
+
+  /* Start of footer section  */
+  .footer-wrapper .container {
+    max-width: 100%;
+  }
+  .footer-wrapper .footer .footer-col-3 {
+    padding-top: 33px;
+  }
+  .footer-wrapper .footer .footer-col-2 {
+    border: 0;
+    border-left: 1px solid black;
+  }
 }
 @media (max-width: 540px) {
-
   section.container .welcome-logo {
     width: calc(100vw - 100px);
   }
@@ -1324,13 +1347,14 @@ section.container {
     text-align: center;
   }
 
-    /* Start of sector pages  */
+  /* Start of sector pages  */
   .container .content_container {
     padding: 5px 0;
   }
-  
-    /* Start of footer section  */
-  .footer-wrapper .footer .footer-btn,.col-2-btn {
+
+  /* Start of footer section  */
+  .footer-wrapper .footer .footer-btn,
+  .col-2-btn {
     text-align: center;
     display: block;
     width: 100%;
@@ -1355,26 +1379,27 @@ section.container {
     display: flex;
     justify-content: center;
   }
-    .about-container .about-body p {
-      font-size: 12px;
-      line-height: 22px;
-      padding-bottom: 10px;
-    }
-    .container .content_container p {
-      text-align: center;
-    }
-    .footer-wrapper .footer .address {
-      text-align: center;
-    }
-    .footer-wrapper .footer .address-header, .send-mail {
-      justify-content: center;
-    }
-    .about-container .about-body .about-black {
-      text-align: center;
-      font-size: 20px;
-      margin-bottom: -2px;
-      font-weight: 500;
-    }
+  .about-container .about-body p {
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 10px;
+  }
+  .container .content_container p {
+    text-align: center;
+  }
+  .footer-wrapper .footer .address {
+    text-align: center;
+  }
+  .footer-wrapper .footer .address-header,
+  .send-mail {
+    justify-content: center;
+  }
+  .about-container .about-body .about-black {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -2px;
+    font-weight: 500;
+  }
 }
 
 @media (max-width: 991px) and (min-width: 576px) {
@@ -1385,16 +1410,15 @@ section.container {
     margin: 0 auto 12px;
     text-align: center;
   }
-
 }
 
- /* feature section */
+/* feature section */
 
-.feature-logo{
+.feature-logo {
   max-width: 100%;
-    height: auto;
+  height: auto;
 }
-.feature-card{
+.feature-card {
   cursor: pointer;
 }
 .card-container {
@@ -1405,21 +1429,21 @@ section.container {
 }
 .card-container p {
   font-family: DINPro;
-    font-weight: 300;
-    color: #000000;
-    text-align: center;
-    font-size: 16px;
-    line-height: 27px;
-    padding-bottom: 14px;
-    min-height: 284px;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 27px;
+  padding-bottom: 14px;
+  min-height: 284px;
 }
-.feature-btn{
+.feature-btn {
   background-color: #af2331;
-    padding: 12px 0px;
-    width: 100%;
-    display: block;
-    text-align: center;
-    font-family: DINPro;
-    font-size: 12px;
-    text-transform: uppercase;
+  padding: 12px 0px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: DINPro;
+  font-size: 12px;
+  text-transform: uppercase;
 }
