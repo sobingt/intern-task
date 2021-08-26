@@ -11,7 +11,7 @@
     <!-- Navigation-->
     <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="./assets/img/navbar-logo.svg" alt="..." /></a>
+            <a class="navbar-brand" href="#page-top"><img src="/assets/img/navbar-logo.svg" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -20,47 +20,73 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li id="company-dropdown-button" class="nav-item dropdown">
-                        <a class="nav-link font-sm">Company</a>
-                        <ul id="company-sub-dropdown" class="dropdown-menu text-capitalize p-0">
-                            <li class="dropdown-item p-2 px-4 font-xs">Ideology</li>
-                            <li class="dropdown-item p-2 px-4 font-xs">About</li>
-                            <li class="dropdown-item p-2 px-4 font-xs">Leadership</li>
+                        <a class="nav-link font-sm" href="#">Company</a>
+                        <ul id="company-sub-dropdown" class="dropdown-menu text-capitalize p-0 nav-links">
+                            <li class="dropdown-item p-2 px-4 font-xs"><a href="ideology.html">Ideology</a> </li>
+                            <li class="dropdown-item p-2 px-4 font-xs"><a href="about.html">About</a></li>
+                            <li class="dropdown-item p-2 px-4 font-xs"><a href="leadership.html">Leadership</a></li>
                         </ul>
                     </li>
                     <li id="sector-dropdown-button" class="nav-item dropdown">
-                        <a class="nav-link font-sm">sector</a>
-                        <ul id="sector-sub-dropdown" class="dropdown-menu text-capitalize p-0">
+                        <a class="nav-link font-sm" href="#">sector</a>
+                        <ul id="sector-sub-dropdown" class="dropdown-menu text-capitalize p-0 nav-links">
                             <li class="dropdown-item p-2 px-4 font-xs">
-                                Investment Management
-                            </li>
-                            <li class="dropdown-item p-2 px-4 font-xs">Asset Management</li>
-                            <li class="dropdown-item p-2 px-4 font-xs">
-                                Development Management
+                               <a href="/sectors/investor_management.html"> Investment Management</a>
                             </li>
                             <li class="dropdown-item p-2 px-4 font-xs">
-                                Foreign Direct Investments
+                                <a href="/sectors/asset_management.html">Asset Management</a>
+                            </li>
+                            <li class="dropdown-item p-2 px-4 font-xs">
+                               <a href="/sectors/development_management.html"> Development Management</a>
+                            </li>
+                            <li class="dropdown-item p-2 px-4 font-xs">
+                               <a href="/sectors/fdi.html"> Foreign Direct Investments</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font-sm">Relationships</a>
+                        <a class="nav-link font-sm" href="#">Relationships</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font-sm">Investor Relations</a>
+                        <a class="nav-link font-sm" href="investor-relation.html" >Investor Relations</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link font-sm">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link font-sm" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">Welcome To Our Studio!</div>
-            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
-        </div>
-    </header>
+    <!-- Homepage slider -->
+    <div class="homepage-slider">
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" class="carousel-info">
+      <img src="/assets/img/slider/slider-img-1.jpg" class="d-block w-100" alt="...">
+      
+    </div>
+    <div class="carousel-item" class="carousel-info">
+      <img src="/assets/img/slider/slider-img-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" class="carousel-info">
+      <img src="/assets/img/slider/slider-img-3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" class="carousel-info">
+      <img src="/assets/img/slider/slider-img-4.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    
+    </div>
+
+
+
     <!-- Services-->
     <section class="container-fluid home-content">
       <div class="container management-firm p-5">
@@ -108,9 +134,11 @@
             </div>
         </div>
         <!-- Footer-->
-        <footer class="container">
-            <div class="footer-wrapper row">
-                <div class="col footer-col-1">
+        <footer class="container-fluid">
+            <div class="container">
+
+                <div class="footer-wrapper row">
+                    <div class="col footer-col-1">
                     <div class="address">
                         <div class="address-header">
                             <span><img src="/assets/img/footer/foot_ic.png" /></span>
@@ -171,12 +199,14 @@
                     <div class="footer-btn">Investor Relations</div>
                 </div>
             </div>
+        </div>
         </footer>
         <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+        <script src="/js/index.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
         <script>
             window.jQuery ||
